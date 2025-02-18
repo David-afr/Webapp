@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Insanibu'; 
+  src: url('../../public/fonts/insanibu/Insanibu.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal; 
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,6 +19,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+*, html {
+  font-family: Helvetica, sans-serif;
 }
 
 body {

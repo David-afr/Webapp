@@ -1,0 +1,6 @@
+.bg-airplane {
+    background-image: url('../../public/images/backgrounds/bg-airplane.webp');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

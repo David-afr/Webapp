@@ -11,8 +11,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        celeste: '#asdasd'
       },
+      fontFamily: {
+        titulo: 'Insanibu'
+      },
+      padding: {
+        globalX: "165px",
+        globalY: '60px'
+      }
     },
+
   },
   plugins: [],
 } satisfies Config;
