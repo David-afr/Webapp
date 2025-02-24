@@ -147,7 +147,7 @@ const Dashboard = () => {
             </div>
 
             <div className="w-full flex bg-white px-20 py-20">
-                <Carousel/>
+                
             </div>
 
             <footer className="bg-footer w-full px-20">
