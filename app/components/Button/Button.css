@@ -1,0 +1,17 @@
+.button {
+    padding: 5px 60px;
+    background-color: #2191d0;
+    color: #fff;
+    border: none;
+    border-radius: 30;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  .button.pressed {
+    transform: scale(0.95);
+  }
+  
+  .link {
+    text-decoration: none;
+  }
