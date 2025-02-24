@@ -1,4 +1,4 @@
-'use client'
+{/*'use client'
 
 import React from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
@@ -28,4 +28,4 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default Carousel; */}
