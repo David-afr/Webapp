@@ -34,7 +34,7 @@ const Dashboard = () => {
                         <input className="w-[63%] m-2 rounded-md text-black border-2 border-gray focus:border-2 focus:border-[#2191d0]" type="text" name="" id="" placeholder="Correo electronico"/>
                         <input className="w-[34%] m-2 rounded-md text-black border-2 border-gray focus:border-2 focus:border-[#2191d0]" type="text" name="" id="" placeholder="Telefono/Celular"/>
                         <select className="w-[62%] m-2 rounded-md text-white border-4 focus:border-[#90d4f6] border-[#90d4f6] bg-[#90d4f6]"> 
-                            <option className="text-gray-50" selected value="">Selecciona una linea de interes</option>
+                            <option className="text-gray-50" defaultValue="">Selecciona una linea de interes</option>
                             <option value=""></option>
                             <option value=""></option>
                             <option value=""></option>
