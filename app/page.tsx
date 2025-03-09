@@ -106,14 +106,15 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="w-full bg-white py-globalY px-globalX place-content-center">
+            {/* Negocios */}
+            <div className="w-full bg-white py-initSectionY px-iniSectionX">
                 <div className="w-full">
-                    <h3 className="font-titulo pl-5 text-4xl text-left text-[#2191d0] ml-20">
-                        nuestras lineas de negocios
+                    <h3 className="font-titulo text-titulo text-celeste uppercase">
+                        NUESTRAS LÍNEAS DE NEGOCIO
                     </h3>
-                    
-                    <div className="mt-10 w-full flex justify-center p-20">
-                        <div className="pl-4 mr-[5%] w-[33%]">
+
+                    <div className="pt-[90px]">
+                        <div className="w-[33%]">
                             <div className="">
                                 <img src="images/seccion/image1.png" className="w-full h-full object-cover"/>
                             </div>
@@ -125,7 +126,7 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="pl-4 mr-[5%] w-[33%]">
+                        <div className="w-[33%]">
                             <div className="">
                                 <img src="images/seccion/image2.png" className="w-full h-full object-cover"/>
                             </div>
@@ -137,7 +138,7 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="pl-4 w-[33%]">
+                        <div className="w-[33%]">
                             <div className="">
                                 <img src="images/seccion/image3.png" className="w-full h-full object-cover"/>
                             </div>
