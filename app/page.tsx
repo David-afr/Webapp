@@ -1,6 +1,5 @@
 'use client'
 import React from "react";
-import Button from './components/Button/Button';
 import Image from "next/image";
 
 export default function Page() {
@@ -115,9 +114,9 @@ export default function Page() {
                     </h3>
 
                     {/* Tipos */}
-                    <div className="pt-[90px]">
+                    <div className="pt-[90px] grid grid-cols-3 gap-30px">
                         {/* Item 1 */}
-                        <div>
+                        <div className="max-w-[400px] text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
@@ -140,7 +139,7 @@ export default function Page() {
                         </div>
 
                         {/* Item 2 */}
-                        <div>
+                        <div className="max-w-[400px] text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image2.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
@@ -163,7 +162,7 @@ export default function Page() {
                         </div>
 
                         {/* Item 3 */}
-                        <div>
+                        <div className="max-w-[400px] text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image3.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
