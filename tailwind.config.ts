@@ -25,7 +25,7 @@ export default {
         initPage: '170px'
       },
       fontSize: {
-        titulo: '48px',
+        titulo: '50px',
         semisubtitulo: '22px',
         subtitulo: '33px'
       }

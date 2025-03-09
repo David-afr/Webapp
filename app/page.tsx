@@ -98,7 +98,7 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="w-full bg-[#6cb332] py-20 px-20 place-content-center">
+            <div className="w-full bg-verde py-20 px-20 place-content-center">
                 <div className="w-full">
                     <h3 className="capitalized font-titulo p-5 text-4xl text-center">
                         Opciones de pago

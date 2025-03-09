@@ -25,8 +25,23 @@ export default function Page() {
                     {/* Vision */}
                     <div className="text-center w-[40%]">
                         <h3 className="text-celeste font-titulo text-titulo">Visión</h3>
-                        <p className="text-gray-700 text-xl">Ser reconocidos como la empresa líder de créditos financieros, destacándonos por nuestra excelencia en el servicio al cliente y adaptabilidad a sus necesidades.</p>
+                        <p className="text-gray-800 text-xl">Ser reconocidos como la empresa líder de créditos financieros, destacándonos por nuestra excelencia en el servicio al cliente y adaptabilidad a sus necesidades.</p>
                     </div>
+                </div>
+            </div>
+
+            {/* Contacto */}
+            <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
+                {/* Titulo */}
+                <div className="text-center">
+                    <h2 className="text-titulo text-verde font-titulo">Contacto</h2>
+                </div>
+
+                {/* Text */}
+                <div className="mt-[30px] max-w-[60%]">
+                    <p className="text-center text-gray-800 text-xl">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur reiciendis praesentium voluptas modi. Nemo excepturi debitis, commodi iure animi laudantium sit repellendus rerum facilis hic perspiciatis? Odio libero ad a.
+                    </p>
                 </div>
             </div>
         </>
