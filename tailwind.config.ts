@@ -11,14 +11,20 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        celeste: '#asdasd'
+        celeste: 'var(--celeste)'
       },
       fontFamily: {
-        titulo: 'Insanibu'
+        titulo: 'Insanibu !important'
       },
       padding: {
         globalX: "165px",
-        globalY: '60px'
+        globalY: '60px',
+        iniSectionX: '230px',
+        initSectionY: '130px',
+        initPage: '170px'
+      },
+      fontSize: {
+        semisubtitulo: '22px'
       }
     },
 
