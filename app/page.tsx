@@ -276,10 +276,12 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="w-full bg-verde py-20 px-20 place-content-center">
+            {/* Opciones de pago */}
+            <div className="w-full bg-verde py-initSectionY px-iniSectionXr">
                 <div className="w-full">
-                    <h3 className="capitalized font-titulo p-5 text-4xl text-center">
-                        Opciones de pago
+                    {/* Titulo */}
+                    <h3 className="font-titulo text-center text-titulo text-white uppercase">
+                        OPCIONES DE PAGO
                     </h3>
 
                     <div className="mt-10 w-full flex justify-center">
