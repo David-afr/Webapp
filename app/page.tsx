@@ -114,73 +114,73 @@ export default function Page() {
                     </h3>
 
                     {/* Tipos */}
-                    <div className="pt-[90px] grid grid-cols-3 gap-30px">
+                    <div className="pt-[90px] grid grid-cols-3 gap-[150px]">
                         {/* Item 1 */}
-                        <div className="max-w-[400px] text-center">
+                        <div className="text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
-                            <div>
-                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 1</h3>
+                            <div className="mt-[30px]">
+                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 1</h3>
                             </div>
 
                             {/* Descripcion */}
-                            <div>
+                            <div className="mt-[15px]">
                                 <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
                             </div>
 
                             {/* informacion */}
-                            <div>
-                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
+                            <div className="px-6 mt-[15px]">
+                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
                             </div>
                         </div>
 
                         {/* Item 2 */}
-                        <div className="max-w-[400px] text-center">
+                        <div className="text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image2.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
-                            <div>
-                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 2</h3>
+                            <div className="mt-[30px]">
+                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 2</h3>
                             </div>
 
                             {/* Descripcion */}
-                            <div>
+                            <div className="mt-[15px]">
                                 <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
                             </div>
 
                             {/* informacion */}
-                            <div>
-                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
+                            <div className="px-6 mt-[15px]">
+                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
                             </div>
                         </div>
 
                         {/* Item 3 */}
-                        <div className="max-w-[400px] text-center">
+                        <div className="text-center">
                             {/* Image */}
                             <div>
                                 <Image src={'/images/seccion/image3.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
-                            <div>
-                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 3</h3>
+                            <div className="mt-[30px]">
+                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 3</h3>
                             </div>
 
                             {/* Descripcion */}
-                            <div>
+                            <div className="mt-[15px]">
                                 <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
                             </div>
 
                             {/* informacion */}
-                            <div>
-                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
+                            <div className="px-6 mt-[15px]">
+                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
                             </div>
                         </div>
                     </div>
