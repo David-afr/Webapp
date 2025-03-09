@@ -30,6 +30,19 @@ export default function Page() {
                 </div>
             </div>
 
+            {/* Ubicacion */}
+            <div className="bg-celeste py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
+                {/* Titulo */}
+                <div className="text-center">
+                    <h2 className="text-titulo text-white font-titulo">Ubicación</h2>
+                </div>
+
+                {/* Map */}
+                <div className="mt-[40px] max-w-[85%] rounded-[30px] overflow-hidden">
+                    <img src="images/backgrounds/map.png" alt="google map" />
+                </div>
+            </div>
+
             {/* Contacto */}
             <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
                 {/* Titulo */}
@@ -38,7 +51,7 @@ export default function Page() {
                 </div>
 
                 {/* Text */}
-                <div className="mt-[30px] max-w-[60%]">
+                <div className="mt-[40px] max-w-[60%]">
                     <p className="text-center text-gray-800 text-xl">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur reiciendis praesentium voluptas modi. Nemo excepturi debitis, commodi iure animi laudantium sit repellendus rerum facilis hic perspiciatis? Odio libero ad a.
                     </p>
