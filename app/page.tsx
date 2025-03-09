@@ -86,7 +86,7 @@ export default function Page() {
 
                                 {/* Enviar */}
                                 <div>
-                                    <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-subtitulo text-white px-5 py-0 rounded-md hover:shadow-gray-500 transition-all duration-200">
+                                    <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
                                         Enviar
                                     </button>
                                 </div>
@@ -96,10 +96,12 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="w-full bg-[#eff5fb] py-20 px-20 flex">
-                <div className="block w-2/3 px-globalX">
-                    <h4 className="font-bold text-2xl text-left text-[#2191d0]">
-                        *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados. <span className="font-normal">Mas informacion.</span>
+            {/* Registro */}
+            <div className="w-full bg-celesteClaro py-globalY px-iniSectionX">
+                <div className="w-[53%]">
+                    <h4 className="text-celeste font-bold text-[28px] leading-8">
+                        *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados.
+                        <span className="text-gray-600 font-light text-[22px]"> <span className="border-b border-verde">Más información</span>.</span>
                     </h4>
                 </div>
             </div>

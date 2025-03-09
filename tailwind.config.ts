@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         celeste: 'var(--celeste)',
+        celesteClaro: '#eff5fb',
         verde: 'var(--verde)',
       },
       fontFamily: {
