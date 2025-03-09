@@ -6,6 +6,14 @@
     overflow: visible;
 }
 
+.bg-nosotros {
+    background-image: url('../public/images/backgrounds/bg-nosotros.webp');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+}
+
 .bg-footer {
     background-color: #2191d0;
 }

@@ -11,7 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        celeste: 'var(--celeste)'
+        celeste: 'var(--celeste)',
+        verde: 'var(--verde)',
       },
       fontFamily: {
         titulo: 'Insanibu !important'
@@ -24,7 +25,9 @@ export default {
         initPage: '170px'
       },
       fontSize: {
-        semisubtitulo: '22px'
+        titulo: '48px',
+        semisubtitulo: '22px',
+        subtitulo: '33px'
       }
     },
 

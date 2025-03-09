@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'Insanibu'; 
+  font-family: 'Insanibu';
   src: url('../../public/fonts/insanibu/Insanibu.woff2') format('woff2');
   font-weight: normal;
-  font-style: normal; 
+  font-style: normal;
 }
 
 @tailwind base;
@@ -13,18 +13,19 @@
   --background: #ffffff;
   --foreground: #171717;
   --celeste: #2191d0;
+  --verde: #23c539;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ededed;
     --foreground: #ededed;
   }
 }
 
 *, html, body {
   font-family: Helvetica, sans-serif !important;
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 
 body {
