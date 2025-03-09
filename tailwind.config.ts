@@ -22,10 +22,11 @@ export default {
         globalY: '60px',
         iniSectionX: '230px',
         initSectionY: '130px',
-        initPage: '170px'
+        initPage: '190px'
       },
       fontSize: {
-        titulo: '50px',
+        titulo: '55px',
+        semititulo: '38px',
         semisubtitulo: '22px',
         subtitulo: '33px'
       }

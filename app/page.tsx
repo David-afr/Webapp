@@ -1,46 +1,98 @@
 'use client'
 import React from "react";
 import Button from './components/Button/Button';
+import Image from "next/image";
 
 export default function Page() {
     return (
         <>
-            <div className="bg-white pt-initPage overflow-visible bg-airplane h-[1350px] w-full px-20 z-0">
-                <div className="">
-                    <div className="w-full px-globalX z-30">
-                        <h2 className="leading-none text-[240px] text-center font-titulo mb-[-20px]">Bienvenidos</h2>
-                        <h3 className=" leading-none text-[34px]">Tu mejor opcion en creditos financiero</h3>
-
+            {/* Inicio */}
+            <div className="bg-white pt-initPage overflow-visible bg-airplane h-[1350px] w-full">
+                <div className="relative flex flex-col h-full justify-between">
+                    {/* Titulo */}
+                    <div className="w-full px-iniSectionX">
+                        <h2 className="leading-none text-[250px] text-center font-titulo mb-[-20px]">Bienvenidos</h2>
+                        <h3 className="leading-none text-semititulo">Tu mejor opción en créditos financieros</h3>
                     </div>
 
-                    <img src="images/highlight.png" className="w-[81%] absolute top-[70px] right-[180px]"/>
+                    {/* Persona */}
+                    <div className="absolute right-[180px] -top-[140px] w-[80%] z-0">
+                        <Image src={'/images/highlight.png'} layout="responsive" width={500} height={500} alt='Cliente satisfecha con Mi Plante' />
+                    </div>
 
-                    <div>
 
+                    {/* Cupos */}
+                    <div className="px-iniSectionX pb-[90px] z-30 relative justify-self-end">
+                        {/* Titulo */}
+                        <div className="inline-block">
+                            <h2 className="text-semititulo bg-verde px-7 rounded-[60px] font-bold">Cupos y límites personalizados</h2>
+                        </div>
+
+                        {/* Detalles */}
+                        <div className="mt-[12px]">
+                            <ul className="text-semisubtitulo">
+                                <li className="leading-8"><span>Con posibilidades de extensión.</span></li>
+                                <li className="leading-8"><span>Consulta tu cupo y utiliza nuestro</span></li>
+                                <li className="leading-8"><span>Simulador de Crédito.</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className=" w-full bg-white py-20 px-20 z-0">
-                <div className="px-globalX">
-                <h2 className="font-titulo text-[#2191d0] text-[60px]">Te contactamos</h2>
-                    <form className="w-2/3 flex-col" action="">
-                        <input className="w-[63%] m-2 rounded-md text-black border-2 border-gray focus:border-2 focus:border-[#2191d0]" type="text" name="" id="" placeholder="Nombre completo"/>
-                        <input className="w-[63%] m-2 rounded-md text-black border-2 border-gray focus:border-2 focus:border-[#2191d0]" type="text" name="" id="" placeholder="Correo electronico"/>
-                        <input className="w-[34%] m-2 rounded-md text-black border-2 border-gray focus:border-2 focus:border-[#2191d0]" type="text" name="" id="" placeholder="Telefono/Celular"/>
-                        <select className="w-[62%] m-2 rounded-md text-white border-4 focus:border-[#90d4f6] border-[#90d4f6] bg-[#90d4f6]"> 
-                            <option className="text-gray-50" defaultValue="">Selecciona una linea de interes</option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                        <div className="w-2/3">
-                            <input className="m-2 bg" type="checkbox" name="" id="" />
-                            <span className="text-black ">Acepto los terminos y condiciones generados</span>
-                            <br></br>
-                            <span className="text-black">Autorizo el tratamiento de mis datos personales para el servision the Mi Plante</span>
-                        </div>
-                    </form>
+            {/* Contacto */}
+            <div className=" w-full bg-white">
+                <div className="px-iniSectionX py-initSectionY">
+                    {/* Titulo */}
+                    <div>
+                        <h2 className="font-titulo text-celeste text-titulo">¡TE CONTACTAMOS!</h2>
+                    </div>
+
+                    {/* Form */}
+                    <div className="mt-[20px]">
+                        <form className="w-2/3 flex-col" action="">
+                            {/* Nombre */}
+                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Nombre completo"/>
+
+                            {/* Correo */}
+                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
+
+                            {/* Telefono */}
+                            <div className="mb-5 flex">
+                                {/* Telefono */}
+                                <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
+
+                                {/* Linea */}
+                                <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
+                                    <option defaultValue="">Selecciona una línea de interés</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+
+                            <div className="flex items-center justify-between">
+                                {/* Terminos */}
+                                <div className="w-[63%]">
+                                    <label className="flex items-center cursor-pointer">
+                                        <input className="mr-2 bg-white rounded-lg p-2 w-8 h-8 border-2 border-gray-300" type="checkbox" />
+
+                                        <div className="text-gray-400 text-sm">
+                                            <span>Acepto los terminos y condiciones generales</span>
+                                            <span>Autorizo el tratamiento de mis datos personales para el servicio de Mi Plante</span>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                {/* Enviar */}
+                                <div>
+                                    <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-subtitulo text-white px-5 py-0 rounded-md hover:shadow-gray-500 transition-all duration-200">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 
