@@ -9,7 +9,7 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ width, height }) => {
     return (
-        <div>
+        <div className="select-none">
             <Link href={"/"}>
                 <Image
                     src={'/images/logo.png'}
