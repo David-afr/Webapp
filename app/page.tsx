@@ -109,44 +109,79 @@ export default function Page() {
             {/* Negocios */}
             <div className="w-full bg-white py-initSectionY px-iniSectionX">
                 <div className="w-full">
+                    {/* Titulo */}
                     <h3 className="font-titulo text-titulo text-celeste uppercase">
                         NUESTRAS LÍNEAS DE NEGOCIO
                     </h3>
 
+                    {/* Tipos */}
                     <div className="pt-[90px]">
-                        <div className="w-[33%]">
-                            <div className="">
-                                <img src="images/seccion/image1.png" className="w-full h-full object-cover"/>
+                        {/* Item 1 */}
+                        <div>
+                            {/* Image */}
+                            <div>
+                                <Image src={'/images/seccion/image1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
-                            <h4 className="font-extrabold text-[#2191d0] text-center mt-4">Linea de negocio 1</h4>
-                            <span className="block text-center text-black">facilis fugiat itaque, debitis architecto at commodi libero ullam laboriosam
-                            excepturi perferendis nobis nihil similique quasi, cumque velit aliquid.</span>
-                            <div className="text-center mt-4">
-                                <Button href="">Mas Informacion</Button>
+
+                            {/* Titulo */}
+                            <div>
+                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 1</h3>
+                            </div>
+
+                            {/* Descripcion */}
+                            <div>
+                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
+                            </div>
+
+                            {/* informacion */}
+                            <div>
+                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
                             </div>
                         </div>
 
-                        <div className="w-[33%]">
-                            <div className="">
-                                <img src="images/seccion/image2.png" className="w-full h-full object-cover"/>
+                        {/* Item 2 */}
+                        <div>
+                            {/* Image */}
+                            <div>
+                                <Image src={'/images/seccion/image2.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
-                            <h4 className="font-extrabold text-[#2191d0] text-center mt-4">Linea de negocio 1</h4>
-                            <span className="block text-center text-black">facilis fugiat itaque, debitis architecto at commodi libero ullam laboriosam
-                            excepturi perferendis nobis nihil similique quasi, cumque velit aliquid.</span>
-                            <div className="text-center mt-4">
-                                <Button href="">Mas Informacion</Button>
+
+                            {/* Titulo */}
+                            <div>
+                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 2</h3>
+                            </div>
+
+                            {/* Descripcion */}
+                            <div>
+                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
+                            </div>
+
+                            {/* informacion */}
+                            <div>
+                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
                             </div>
                         </div>
 
-                        <div className="w-[33%]">
-                            <div className="">
-                                <img src="images/seccion/image3.png" className="w-full h-full object-cover"/>
+                        {/* Item 3 */}
+                        <div>
+                            {/* Image */}
+                            <div>
+                                <Image src={'/images/seccion/image3.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
                             </div>
-                            <h4 className="font-extrabold text-[#2191d0] text-center mt-4">Linea de negocio 1</h4>
-                            <span className="block text-center text-black">facilis fugiat itaque, debitis architecto at commodi libero ullam laboriosam
-                            excepturi perferendis nobis nihil similique quasi, cumque velit aliquid.</span>
-                            <div className="text-center mt-4">
-                                <Button href="">Mas Informacion</Button>
+
+                            {/* Titulo */}
+                            <div>
+                                <h3 className="text-celeste font-bold text-2xl">Línea de negocio 3</h3>
+                            </div>
+
+                            {/* Descripcion */}
+                            <div>
+                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
+                            </div>
+
+                            {/* informacion */}
+                            <div>
+                                <a href="#" className="bg-celeste px-2 inline-block rounded-lg">Más información</a>
                             </div>
                         </div>
                     </div>
