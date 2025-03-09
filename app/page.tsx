@@ -105,7 +105,7 @@ export default function Page() {
                 </div>
 
                 {/* Listado */}
-                <div className="absolute select-none right-[230px] bottom-[-125px] z-10">
+                <div className="absolute select-none right-[230px] bottom-[-120px] z-10">
                     <div className="bg-verde pb-[170px] px-7 rounded-t-[90px]">
                         {/* Titulo */}
                         <div className="text-right px-10">
@@ -115,51 +115,78 @@ export default function Page() {
                         {/* Items */}
                         <div className="mt-[100px]">
                              {/* Item */}
-                            <div className="border-l pl-6 ml-6 mb-[70px]">
-                                {/* Titulo */}
-                                <div>
-                                    <h5 className="text-[28px] text-white font-bold leading-7">Documentos<br/>necesarios:</h5>
+                            <div className="mb-[70px] flex">
+                                {/* Numero */}
+                                <div className="relative ml-4 w-[70px]">
+                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[17px] top-[5px] z-10"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">1</span>
+                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
                                 </div>
 
-                                {/* Listado */}
-                                <div className="mt-[10px]">
-                                    <ul className="text-white">
-                                        <li className="text-xl flex items-center">
-                                            <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                            <span>Cédula original.</span>
-                                        </li>
-                                        <li className="text-xl flex items-center">
-                                            <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                            <span>Dos facturas de servicios<br/>de EMCALI.</span>
-                                        </li>
-                                        <li className="text-xl flex items-center">
-                                            <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                            <span>Correo electrónico</span>
-                                        </li>
-                                        <li className="text-xl flex items-center">
-                                            <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                            <span>Número de celular.</span>
-                                        </li>
-                                    </ul>
+                                <div className="border-l pl-6 ml-6">
+                                    {/* Titulo */}
+                                    <div>
+                                        <h5 className="text-[28px] text-white font-bold leading-7">Documentos<br/>necesarios:</h5>
+                                    </div>
+
+                                    {/* Listado */}
+                                    <div className="mt-[10px]">
+                                        <ul className="text-white">
+                                            <li className="text-xl flex items-center">
+                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                <span>Cédula original.</span>
+                                            </li>
+                                            <li className="text-xl flex items-center">
+                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                <span>Dos facturas de servicios<br/>de EMCALI.</span>
+                                            </li>
+                                            <li className="text-xl flex items-center">
+                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                <span>Correo electrónico</span>
+                                            </li>
+                                            <li className="text-xl flex items-center">
+                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                <span>Número de celular.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
                             {/* Item */}
-                            <div className="border-l pl-6 ml-6 mb-[70px]">
-                                {/* Titulo */}
-                                <div>
-                                    <h5 className="text-[28px] text-white font-bold leading-7">Regístrate<br/>y selecciona<br/>tu producto<br/>o servicio</h5>
+                            <div className="mb-[70px] flex">
+                                {/* Numero */}
+                                <div className="relative ml-4 w-[70px]">
+                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">2</span>
+                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
+                                </div>
+
+                                <div className="border-l pl-6 ml-6">
+                                    {/* Titulo */}
+                                    <div>
+                                        <h5 className="text-[28px] text-white font-bold leading-7">Regístrate<br/>y selecciona<br/>tu producto<br/>o servicio</h5>
+                                    </div>
                                 </div>
                             </div>
 
                             {/* Item */}
-                            <div className="border-l pl-6 ml-6">
-                                {/* Titulo */}
-                                <div>
-                                    <h5 className="text-[20px] text-white leading-7">
-                                        Firma<br/>los documentos<br/>de forma digital<br/>
-                                        <span className="font-bold text-[28px]">y ¡listo!</span>
-                                    </h5>
+                            <div className="flex">
+                                {/* Numero */}
+                                <div className="relative ml-4 w-[70px]">
+                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">3</span>
+                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
+                                </div>
+
+                                <div className="border-l pl-6 ml-6">
+                                    {/* Titulo */}
+                                    <div>
+                                        <h5 className="text-[20px] text-white leading-7">
+                                            Firma<br/>los documentos<br/>de forma digital<br/>
+                                            <span className="font-bold text-[28px]">y ¡listo!</span>
+                                        </h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>

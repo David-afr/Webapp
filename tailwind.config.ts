@@ -14,6 +14,7 @@ export default {
         celeste: 'var(--celeste)',
         celesteClaro: '#eff5fb',
         verde: 'var(--verde)',
+        transparentT: 'var(--transparentT)'
       },
       fontFamily: {
         titulo: 'Insanibu !important'

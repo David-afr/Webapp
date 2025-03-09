@@ -18,3 +18,6 @@
     background-color: #2191d0;
 }
 
+.text-outline {
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
