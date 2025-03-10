@@ -10,8 +10,7 @@ export default function Page() {
                 <div className="relative flex flex-col h-full justify-between">
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
-                        <h2 className="leading-none text-[250px] text-center font-titulo mb-[-20px]">Bienvenidos</h2>
-                        <h3 className="leading-none text-semititulo">Tu mejor opción en créditos financieros</h3>
+                        <h2 className="leading-none text-[250px] text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
                     </div>
 
                     {/* Persona */}
@@ -119,8 +118,7 @@ export default function Page() {
                                 {/* Numero */}
                                 <div className="relative ml-4 w-[70px]">
                                     <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[17px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">1</span>
-                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">1<span className="font-titulo ml-[2px]">.</span></span>
                                 </div>
 
                                 <div className="border-l pl-6 ml-6">
@@ -158,8 +156,7 @@ export default function Page() {
                                 {/* Numero */}
                                 <div className="relative ml-4 w-[70px]">
                                     <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">2</span>
-                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">2<span className="font-titulo ml-[2px]">.</span></span>
                                 </div>
 
                                 <div className="border-l pl-6 ml-6">
@@ -175,8 +172,7 @@ export default function Page() {
                                 {/* Numero */}
                                 <div className="relative ml-4 w-[70px]">
                                     <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">3</span>
-                                    <span className="inline-block w-[18px] h-[18px] border-white border rounded-full"></span>
+                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">3<span className="font-titulo ml-[2px]">.</span></span>
                                 </div>
 
                                 <div className="border-l pl-6 ml-6">
@@ -216,11 +212,6 @@ export default function Page() {
                                 <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 1</h3>
                             </div>
 
-                            {/* Descripcion */}
-                            <div className="mt-[15px]">
-                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
-                            </div>
-
                             {/* informacion */}
                             <div className="px-6 mt-[15px]">
                                 <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
@@ -237,11 +228,6 @@ export default function Page() {
                             {/* Titulo */}
                             <div className="mt-[30px]">
                                 <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 2</h3>
-                            </div>
-
-                            {/* Descripcion */}
-                            <div className="mt-[15px]">
-                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
                             </div>
 
                             {/* informacion */}
@@ -262,11 +248,6 @@ export default function Page() {
                                 <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 3</h3>
                             </div>
 
-                            {/* Descripcion */}
-                            <div className="mt-[15px]">
-                                <p className="text-gray-600 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id dolor nulla ducimus soluta ipsa autem ex quasi rerum excepturi vel non consequuntur, sint deserunt quis blanditiis. Sequi, blanditiis natus!</p>
-                            </div>
-
                             {/* informacion */}
                             <div className="px-6 mt-[15px]">
                                 <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
@@ -277,45 +258,73 @@ export default function Page() {
             </div>
 
             {/* Opciones de pago */}
-            <div className="w-full bg-verde py-initSectionY px-iniSectionXr">
+            <div className="w-full bg-verde py-initSectionY px-iniSectionX">
                 <div className="w-full">
                     {/* Titulo */}
                     <h3 className="font-titulo text-center text-titulo text-white uppercase">
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="mt-10 w-full flex justify-center">
-                        <div className="border-l pl-4 mr-[5%]">
-                            <a>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                                <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
-                                <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                    <div className="pt-[90px] grid grid-cols-3 gap-[150px]">
+                        {/* Item */}
+                        <div className="border-l-2 pl-8">
+                            {/* Icono */}
+                            <div className="relative">
+                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="relative z-10 size-14">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
                                 </svg>
-                            </a>
-                            <h4 className="font-extrabold text-[#b7cc18]">Pagos Mensuales</h4>
-                            <span>perzonalizados segun tus ingresos</span>
+                            </div>
+
+                            {/* Titulo */}
+                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Pagos mensuales</h4></div>
+
+                            {/* Descripcion */}
+                            <div className="mt-1">
+                                <span className="text-lg">personalizados según tus ingresos</span>
+                            </div>
                         </div>
 
-                        <div className="border-l pl-4 mr-[5%]">
-                            <a>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                                <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
-                                <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                        {/* Item */}
+                        <div className="border-l-2 pl-8">
+                            {/* Icono */}
+                            <div className="relative">
+                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="relative z-10 size-14">
+                                    <path d="M10.5 18a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z" />
+                                    <path fill-rule="evenodd" d="M7.125 1.5A3.375 3.375 0 0 0 3.75 4.875v14.25A3.375 3.375 0 0 0 7.125 22.5h9.75a3.375 3.375 0 0 0 3.375-3.375V4.875A3.375 3.375 0 0 0 16.875 1.5h-9.75ZM6 4.875c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125v14.25c0 .621-.504 1.125-1.125 1.125h-9.75A1.125 1.125 0 0 1 6 19.125V4.875Z" clip-rule="evenodd" />
                                 </svg>
-                            </a>
-                            <h4 className="font-extrabold text-[#b7cc18]">Transferencia bancarias</h4>
-                            <span>o <span className="font-bold">pagos en efectivo </span>en nuestras oficinas</span>
+                            </div>
+
+                            {/* Titulo */}
+                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Transferencias bancarias</h4></div>
+
+                            {/* Descripcion */}
+                            <div className="mt-1">
+                                <span className="text-lg"><strong>o pagos en efectivo</strong> en nuestras oficinas.</span>
+                            </div>
                         </div>
 
-                        <div className="border-l pl-4">
-                            <a>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
-                                <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
-                                <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                        {/* Item */}
+                        <div className="border-l-2 pl-8">
+                            {/* Icono */}
+                            <div className="relative">
+                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="relative z-10 size-14">
+                                    <path fill-rule="evenodd" d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z" clip-rule="evenodd" />
                                 </svg>
-                            </a>
-                            <h4 className="font-extrabold text-[#b7cc18]">Plataformas en linea</h4>
-                            <span>perzonalizados segun tus ingresos</span>
+                            </div>
+
+                            {/* Titulo */}
+                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Plataformas en línea</h4></div>
+
+                            {/* Descripcion */}
+                            <div className="mt-1">
+                                <span className="text-lg">para realizar pagos desde cualquier lugar.</span>
+                            </div>
                         </div>
                     </div>
                 </div>
