@@ -25,7 +25,7 @@ const Header = () => {
                     </div>
 
                     <div className="border-r pr-3 mr-3">
-                        <a href="#" className="cursor-pointer text-lg">Marketplace</a>
+                        <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
                     </div>
 
                     <div>
