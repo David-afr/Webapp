@@ -24,6 +24,10 @@ const Header = () => {
                         <Link href="/nosotros" className="cursor-pointer text-lg">Nosotros</Link>
                     </div>
 
+                    <div className="border-r pr-3 mr-3">
+                        <a href="#" className="cursor-pointer text-lg">Marketplace</a>
+                    </div>
+
                     <div>
                         <Link href="/preguntas-frecuentes" className="cursor-pointer text-lg">Preguntas frecuentes</Link>
                     </div>

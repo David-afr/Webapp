@@ -13,16 +13,16 @@ const Carousel: React.FC = () => {
                 options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false }}
             >
                 <SplideSlide >
-                    <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
+                    <Image src={'/images/carousel/almacen.webp'}  width={100} height={50} alt='image aliados almacen'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
+                <Image src={'/images/carousel/ceimcol.webp'}  width={100} height={50} alt='image aliados ceimcol'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
+                <Image src={'/images/carousel/centroideas.webp'}  width={100} height={50} alt='image aliados centroideas'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
+                <Image src={'/images/carousel/televisores.webp'}  width={100} height={50} alt='image aliados televisores'/>
                 </SplideSlide>
                 <SplideSlide>
                 <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
