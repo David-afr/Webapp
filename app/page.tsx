@@ -119,7 +119,9 @@ export default function Page() {
                 </div>
 
                 {/* Listado */}
-                <div className="absolute select-none right-[3vw] 4xl:right-[9vw] bottom-[-6.1vw] z-10">
+                <div className="absolute flex items-end select-none right-[3vw] 4xl:right-[10vw] bottom-[-6.1vw] z-10">
+                    <div className="translate-y-[-10vw] w-0 h-0 border-t-[30px] border-t-transparent border-b-[30px] border-b-transparent border-r-[60px] border-r-verde"></div>
+
                     <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw]">
                         {/* Titulo */}
                         <div className="text-right px-10">
