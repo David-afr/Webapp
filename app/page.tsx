@@ -97,7 +97,7 @@ export default function Page() {
 
             {/* Registro */}
             <div className="w-full bg-celesteClaro py-globalY px-iniSectionX relative">
-                <div className="w-[53%]">
+                <div className="w-[60%] 4xl:w-[53%]">
                     <h4 className="text-celeste font-bold text-[28px] leading-8">
                         *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados.
                         <span className="text-gray-600 font-light text-[22px]"> <span className="border-b border-verde">Más información</span>.</span>
@@ -105,8 +105,8 @@ export default function Page() {
                 </div>
 
                 {/* Listado */}
-                <div className="absolute select-none right-[230px] bottom-[-120px] z-10">
-                    <div className="bg-verde pb-[170px] px-7 rounded-t-[90px]">
+                <div className="absolute select-none right-[3vw] 4xl:right-[9vw] bottom-[-6.1vw] z-10">
+                    <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw]">
                         {/* Titulo */}
                         <div className="text-right px-10">
                             <span className="font-titulo text-[250px]">¡?</span>
