@@ -16,16 +16,28 @@ const Carousel: React.FC = () => {
                     <Image src={'/images/carousel/almacen.webp'}  width={100} height={50} alt='image aliados almacen'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/ceimcol.webp'}  width={100} height={50} alt='image aliados ceimcol'/>
+                    <Image src={'/images/carousel/ceimcol.webp'}  width={100} height={50} alt='image aliados ceimcol'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/centroideas.webp'}  width={100} height={50} alt='image aliados centroideas'/>
+                    <Image src={'/images/carousel/centroideas.webp'}  width={100} height={50} alt='image aliados centroideas'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/televisores.webp'}  width={100} height={50} alt='image aliados televisores'/>
+                    <Image src={'/images/carousel/televisores.webp'}  width={100} height={50} alt='image aliados televisores'/>
                 </SplideSlide>
                 <SplideSlide>
-                <Image src={'/images/carousel/aliado.png'}  width={100} height={50} alt='image aliados 1'/>
+                    <Image src={'/images/carousel/emcali.webp'}  width={100} height={50} alt='image aliados emcali'/>
+                </SplideSlide>
+                <SplideSlide>
+                    <Image src={'/images/carousel/motoamiga.webp'}  width={100} height={50} alt='image aliados motoamiga'/>
+                </SplideSlide>
+                <SplideSlide>
+                    <Image src={'/images/carousel/motored.webp'}  width={100} height={50} alt='image aliados motored'/>
+                </SplideSlide>
+                <SplideSlide>
+                    <Image src={'/images/carousel/tkdmotos.webp'}  width={100} height={50} alt='image aliados tkdmotos'/>
+                </SplideSlide>
+                <SplideSlide>
+                    <Image src={'/images/carousel/panamericana.webp'}  width={100} height={50} alt='image aliados panamericana'/>
                 </SplideSlide>
             </Splide>
         </div>
