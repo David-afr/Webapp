@@ -8,37 +8,15 @@ import Image from 'next/image';
 const Carousel: React.FC = () => {
     return(
         <div>
-            <Splide className="px-[20%] items-center justify-between"
-                aria-label="My Favorite Images"
-                options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false }}
+            <Splide className="px-[20%] items-center justify-center"
+            aria-label="My Favorite Images"
+            options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false, gap: '1rem' }}
             >
-                <SplideSlide >
-                    <Image src={'/images/carousel/almacen.webp'}  width={100} height={50} alt='image aliados almacen'/>
+            {['almacen', 'ceimcol', 'centroideas', 'televisores', 'emcali', 'motoamiga', 'motored', 'tkdmotos', 'panamericana'].map((image, index) => (
+                <SplideSlide key={index} className="flex justify-center items-center">
+                <Image src={`/images/carousel/${image}.webp`} width={100} height={50} alt={`image aliados ${image}`} className="object-contain" />
                 </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/ceimcol.webp'}  width={100} height={50} alt='image aliados ceimcol'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/centroideas.webp'}  width={100} height={50} alt='image aliados centroideas'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/televisores.webp'}  width={100} height={50} alt='image aliados televisores'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/emcali.webp'}  width={100} height={50} alt='image aliados emcali'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/motoamiga.webp'}  width={100} height={50} alt='image aliados motoamiga'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/motored.webp'}  width={100} height={50} alt='image aliados motored'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/tkdmotos.webp'}  width={100} height={50} alt='image aliados tkdmotos'/>
-                </SplideSlide>
-                <SplideSlide>
-                    <Image src={'/images/carousel/panamericana.webp'}  width={100} height={50} alt='image aliados panamericana'/>
-                </SplideSlide>
+            ))}
             </Splide>
         </div>
     );
