@@ -14,14 +14,14 @@ export default function Page() {
                         <h2 className="leading-none text-[14vw] text-wrap text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
 
                         {/* Info */}
-                        <div>
-                            <p>
+                        <div className="mt-[2.2vw]">
+                            <p className="text-right text-[1.1vw] text-white leading-[1.5vw]">
                                 Somos una empresa dedicada a
                                 <br/>ofrecer soluciones financieras
                                 <br/>rápidas y confiables para que
                                 <br/>puedas alcanzar tus metas.
-                                <br/>Contamos con más de
-                                <br/>10 años de experiencia
+                                <br/><strong className="font-bold text-[1.4vw]">Contamos con más de</strong>
+                                <br/><strong className="font-bold text-[1.4vw]">10 años de experiencia</strong>
                                 <br/>ayudando a nuestros clientes a
                                 <br/>financiar sus sueños.
                             </p>
