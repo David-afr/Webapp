@@ -34,16 +34,3 @@ body {
   background: var(--background);
 }
 
-@media (max-width: 1800px) {
-  .px-iniSectionX {
-    padding-left: 150px !important;
-    padding-right: 150px !important;
-  }
-}
-
-@media (max-width: 1600px) {
-  .px-iniSectionX {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
-  }
-}

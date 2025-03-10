@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       screens: {
+        '3xl': '1300px',
         '4xl': '1600px',
         '5xl': '1800px'
       },
@@ -27,7 +28,7 @@ export default {
       padding: {
         globalX: "165px",
         globalY: '60px',
-        iniSectionX: '230px',
+        iniSectionX: '10vw',
         initSectionY: '130px',
         initPage: '190px'
       },
