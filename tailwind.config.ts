@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        '5xl': '1800px'
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
