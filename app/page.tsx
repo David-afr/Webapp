@@ -12,6 +12,20 @@ export default function Page() {
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
                         <h2 className="leading-none text-[14vw] text-wrap text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
+
+                        {/* Info */}
+                        <div>
+                            <p>
+                                Somos una empresa dedicada a
+                                <br/>ofrecer soluciones financieras
+                                <br/>rápidas y confiables para que
+                                <br/>puedas alcanzar tus metas.
+                                <br/>Contamos con más de
+                                <br/>10 años de experiencia
+                                <br/>ayudando a nuestros clientes a
+                                <br/>financiar sus sueños.
+                            </p>
+                        </div>
                     </div>
 
                     {/* Persona */}
