@@ -7,7 +7,7 @@ export default function Page() {
     return (
         <>
             {/* Inicio */}
-            <div className="bg-white pt-initPage overflow-visible bg-airplane h-[1350px] w-full">
+            <div className="bg-white pt-initPage overflow-visible bg-airplane h-[70.4vw] w-full">
                 <div className="relative flex flex-col h-full justify-between">
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
@@ -15,7 +15,7 @@ export default function Page() {
                     </div>
 
                     {/* Persona */}
-                    <div className="absolute right-[180px] select-none -top-[140px] w-[80%] z-20">
+                    <div className="absolute right-[9.4vw] select-none -top-[7.4vw] w-[80%] z-20">
                         <Image src={'/images/highlight.png'} layout="responsive" width={500} height={500} alt='Cliente satisfecha con Mi Plante' />
                     </div>
 
@@ -30,9 +30,9 @@ export default function Page() {
                         {/* Detalles */}
                         <div className="mt-[12px]">
                             <ul className="text-semisubtitulo">
-                                <li className="leading-8"><span>Con posibilidades de extensión.</span></li>
-                                <li className="leading-8"><span>Consulta tu cupo y utiliza nuestro</span></li>
-                                <li className="leading-8"><span>Simulador de Crédito.</span></li>
+                                <li><span>Con posibilidades de extensión.</span></li>
+                                <li><span>Consulta tu cupo y utiliza nuestro</span></li>
+                                <li><span>Simulador de Crédito.</span></li>
                             </ul>
                         </div>
                     </div>

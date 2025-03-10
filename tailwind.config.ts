@@ -26,17 +26,16 @@ export default {
         titulo: 'Insanibu !important'
       },
       padding: {
-        globalX: "165px",
-        globalY: '60px',
+        globalY: '3.1vw',
         iniSectionX: '10vw',
-        initSectionY: '130px',
-        initPage: '190px'
+        initSectionY: '6.8vw',
+        initPage: '10.4vw'
       },
       fontSize: {
-        titulo: '55px',
-        semititulo: '38px',
-        semisubtitulo: '22px',
-        subtitulo: '33px'
+        titulo: '2.9vw',
+        semititulo: '1.9vw',
+        semisubtitulo: '1.15vw',
+        subtitulo: '1.74vw'
       }
     },
 
