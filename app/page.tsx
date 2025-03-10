@@ -11,7 +11,7 @@ export default function Page() {
                 <div className="relative flex flex-col h-full justify-between">
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
-                        <h2 className="leading-none text-[230px] text-wrap 5xl:text-[250px] text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
+                        <h2 className="leading-none text-[190px] 4xl:text-[230px] text-wrap 5xl:text-[250px] text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
                     </div>
 
                     {/* Persona */}
