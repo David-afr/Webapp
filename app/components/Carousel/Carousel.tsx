@@ -1,31 +1,34 @@
-{/*'use client'
+'use client'
 
-import React from "react";
+import React from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/splide/dist/css/splide.min.css';
 
 const Carousel = () => {
     return(
-        
-        <Splide className="px-[20%] items-center justify-between" aria-label="My Favorite Images" data-splide='{"type":"loop","perPage":5}'>
-            <SplideSlide>
-                <img src="images/carousel/aliado.png" alt="Image 1"/>
-            </SplideSlide>
-            <SplideSlide>
-                <img src="images/carousel/aliado.png" alt="Image 2"/>
-            </SplideSlide>
-            <SplideSlide>
-                <img src="images/carousel/aliado.png" alt="Image 2"/>
-            </SplideSlide>
-            <SplideSlide>
-                <img src="images/carousel/aliado.png" alt="Image 2"/>
-            </SplideSlide>
-            <SplideSlide>
-                <img src="images/carousel/aliado.png" alt="Image 2"/>
-            </SplideSlide>
-        </Splide>
-        
+        <div>
+            <Splide className="px-[20%] items-center justify-between"
+                aria-label="My Favorite Images"
+                options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false }}
+            >
+                <SplideSlide>
+                    <img src="images/carousel/aliado.png" alt="Image 1"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="images/carousel/aliado.png" alt="Image 2"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="images/carousel/aliado.png" alt="Image 2"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="images/carousel/aliado.png" alt="Image 2"/>
+                </SplideSlide>
+                <SplideSlide>
+                    <img src="images/carousel/aliado.png" alt="Image 2"/>
+                </SplideSlide>
+            </Splide>
+        </div>
     );
 };
 
-export default Carousel; */}
+export default Carousel;
