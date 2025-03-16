@@ -10,13 +10,13 @@ export default function Page() {
             </div>
 
             {/* Preguntas Frecuentes */}
-            <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center justify-left">
+            <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center">
 
                 {/* Text */}
-                <div className="max-w-[60%] text-left text-black text-xl">
-                    <p className="text-xl text-celeste font-titulo mb-5">¿Qué es Mi Plante?</p>
+                <div className="max-w-[60%] text-justify text-black text-xl">
+                    <p className="text-xl text-celeste font-titulo mb-5 just">¿Qué es Mi Plante?</p>
                     
-                    <p>
+                    <p className="justify-stretch">
                     Es un Servicio de financiación inclusivo otorgado a los usuarios residenciales de EMCALI que han tenido un buen comportamiento de pago en los últimos 18 meses.
                     <br/>
                     <br/>
@@ -26,7 +26,7 @@ export default function Page() {
                     </p>
                 </div>
 
-                <div className="mt-12 max-w-[60%] text-black text-xl">
+                <div className="mt-12 max-w-[60%] text-justify text-black text-xl">
                     <p className="text-xl text-verde font-titulo mb-5">¿Quiénes pueden acceder a Mi Plante?</p>
                     
                     <p>Pueden acceder los usuarios de EMCALI que cumplan con los siguientes requisitos:</p>
@@ -41,12 +41,12 @@ export default function Page() {
                     </ul>
                 </div>
 
-                <div className="mt-12 max-w-[60%] text-black text-xl">
+                <div className="mt-12 max-w-[60%] text-justify text-black text-xl">
                     <p className="text-xl text-celeste font-titulo mb-5">¿Dónde puedo comprar con Mi Plante?</p>
                     
                     <p>Puedes comprar en cualquiera de nuestros aliados comerciales. Para mayor información, tienes las siguientes opciones:</p>
                     <br/>
-                    <p><strong className="font-bold">Compra en línea:</strong> Accede a nuestro MarketPlace y realiza tu compra en <a href="www.miplante.com">www.miplante.com.</a></p>
+                    <p><strong className="font-bold">Compra en línea:</strong> Accede a nuestro MarketPlace y realiza tu compra en <a href="market.miplante.com">market.miplante.com.</a></p>
                     <p><strong className="font-bold">Puntos de venta físicos:</strong> Visita los establecimientos de nuestros aliados comerciales y recibe asesoría personalizada.</p>
                     <p><strong className="font-bold">Más Información</strong> completa el siguiente <strong className="font-bold">formulario:</strong> </p>
 
@@ -98,19 +98,19 @@ export default function Page() {
 
                 </div>
 
-                <div className="mt-12 max-w-[60%] text-black text-xl">
+                <div className="mt-12 max-w-[60%] text-justify text-black text-xl">
                     <p className="text-xl text-verde font-titulo mb-5">¿Qué puedo comprar con Mi Plante?</p>
                     
                     <p>Puedes comprar una variedad de <strong className="font-bold">productos y servicios</strong> para ayudarte a cumplir tus metas y sueños. Contamos con 10 líneas de productos y más de 50 sublineas. 
-                        Explora nuestras opciones y encuentra lo que necesitas en <a href="www.miplante.com">www.miplante.com.</a></p>
+                        Explora nuestras opciones y encuentra lo que necesitas en <a href="market.miplante.com">market.miplante.com.</a></p>
 
                 </div>
 
-                <div className="mt-12 max-w-[60%] text-black text-xl">
+                <div className="mt-12 max-w-[60%] text-justify text-black text-xl">
                     <p className="text-xl text-celeste font-titulo mb-5">¿Qué sucede con la deuda en caso de fallecimiento del titular?</p>
                     
                     <p>La deuda queda cancelada gracias al seguro de vida a deudores. Este seguro cubre el 100% del saldo pendiente en caso de fallecimiento o incapacidad total y permanente del titular.</p>
-                    <p><strong className="font-bold">Consulta los términos y condiciones en</strong> <a href="www.miplante.com">www.miplante.com.</a></p>
+                    <p><strong className="font-bold">Consulta los términos y condiciones en</strong> <a href="market.miplante.com">market.miplante.com.</a></p>
                 </div>
 
                 <div className="mt-12 max-w-[60%] text-black text-xl">
@@ -119,13 +119,13 @@ export default function Page() {
                     <p><strong className="font-bold">Es una tasa de interés fija</strong> durante todo el periodo de financiamiento, establecida siempre conforme al marco regulatorio de la <strong className="font-bold">Superintendencia Financiera.</strong></p>
                 </div>
 
-                <div className="mt-12 max-w-[100%] text-black text-xl">
+                <div className="mt-12 wid max-w-[60%] text-justify text-black text-xl">
                     <p className="text-xl text-celeste font-titulo mb-5">¿Otorgan préstamos de dinero?</p>
                     
                     <p>El pago de las cuotas lo realizas a través de la factura de EMCALI</p>
                 </div>                
 
-                <div className="mt-12 max-w-[60%] text-black text-xl">
+                <div className="mt-12 max-w-[60%] text-black text-justify text-xl">
                     <p className="text-xl text-verde font-titulo mb-5">¿Cómo puedo reportar un fraude?</p>
                     
                     <p>Si fuiste víctima de suplantación de identidad o suplantación de recibo u otros fraudes, debes acercarte inmediatamente a nuestros puntos de atención con la siguiente información:</p>
