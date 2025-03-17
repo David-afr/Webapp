@@ -21,8 +21,8 @@ export default function Page() {
                 </div>
 
                 {/* Text */}
-                <div className="mt-[40px] max-w-[60%]">
-                    <p className="text-center text-gray-800 text-xl">
+                <div className="mt-[40px] max-w-[60%] text-justify">
+                    <p className="text-gray-800 text-xl">
                     HHO Renting S.A.S. es una empresa colombiana constituida en el 2014 en la ciudad de Cali, Valle del Cauca; inició sus operaciones enfocada en impulsar 
                     soluciones sostenibles a través de un modelo innovador, orientado a la instalación de generadores de combustible limpio HHO en diversos tipos de vehículos. 
                     Su propósito principal era prevenir, minimizar y controlar la generación de contaminantes, al tiempo que mejoraba la eficiencia energética mediante el uso de 
@@ -62,7 +62,7 @@ export default function Page() {
                     {/* Mision */}
                     <div className="text-center mr-[60px] w-[40%]">
                         <h3 className="text-white font-titulo text-titulo">Misión</h3>
-                        <p className="text-white text-xl">Somos un servicio de financiación inclusivo que facilita a los clientes residenciales de empresas de servicios públicos 
+                        <p className="text-white text-xl text-justify">Somos un servicio de financiación inclusivo que facilita a los clientes residenciales de empresas de servicios públicos 
                                                             la adquisición de productos y servicios mediante créditos fáciles, rápidos y seguros. Nuestro objetivo es mejorar la 
                                                             calidad de vida de las familias, reconociendo su buen comportamiento de pago en sus facturas de servicios públicos.</p>
                     </div>
@@ -70,7 +70,7 @@ export default function Page() {
                     {/* Vision */}
                     <div className="text-center w-[40%]">
                         <h3 className="text-white font-titulo text-titulo">Visión</h3>
-                        <p className="text-white text-xl">Para 2030, nos posicionaremos como un líder en el sector de financiación inclusiva, alcanzando una participación 
+                        <p className="text-white text-xl text-justify">Para 2030, nos posicionaremos como un líder en el sector de financiación inclusiva, alcanzando una participación 
                                                             significativa en el mercado de créditos para clientes residenciales. Nos comprometemos a ser reconocidos por nuestra 
                                                             innovación en productos financieros accesibles y por mejorar la calidad de vida de las familias, estableciendo 
                                                             relaciones de confianza y ofreciendo soluciones que fomenten el bienestar económico y social de nuestros clientes.</p>

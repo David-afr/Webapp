@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "../Global/Logo";
+import Dropdown from "../../components/Dropdown/Dropdown"
 
 const Header = () => {
     return(
@@ -28,8 +29,13 @@ const Header = () => {
                         <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
                     </div>
 
-                    <div>
+                    <div className="pr-3 mr-3">
                         <Link href="/preguntas-frecuentes" className="cursor-pointer text-lg">Preguntas frecuentes</Link>
+                    </div>
+
+                    {/* Dropdown Menu */}
+                    <div>
+                        <Dropdown/>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Carousel: React.FC = () => {
         <div>
             <Splide className="px-[20%] items-center justify-center"
             aria-label="My Favorite Images"
-            options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false, pagination: false, gap: '4rem', speed: 2000, interval: 3000 }}
+            options={{ type: 'loop', perPage: 5, autoplay: true, arrows: false, pagination: false, gap: '4rem', speed: 5000, interval: 7000 }}
             >
             {['almacen', 'ceimcol', 'centroideas', 'televisores', 'emcali', 'motoamiga', 'motored', 'tkdmotos', 'panamericana'].map((image, index) => (
                 <SplideSlide key={index} className="flex justify-center items-center">

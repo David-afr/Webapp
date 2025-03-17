@@ -21,3 +21,7 @@
 .text-outline {
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
+
+.text-shadow {
+    text-shadow: 0px 0px 6px rgb(90, 90, 90);   
+}

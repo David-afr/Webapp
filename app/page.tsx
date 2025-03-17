@@ -35,18 +35,19 @@ export default function Page() {
 
 
                     {/* Cupos */}
-                    <div className="px-iniSectionX pb-[90px] z-30 relative justify-self-end">
+                    <div className="px-iniSectionX pb-[100px] z-30 relative justify-self-end">
                         {/* Titulo */}
                         <div className="inline-block">
-                            <h2 className="text-semititulo bg-verde px-7 rounded-[60px] font-bold">Cupos y límites personalizados</h2>
+                            <h2 className="text-semititulo bg-verde px-7 rounded-[60px] font-bold">NUESTROS PLANTES</h2>
                         </div>
 
                         {/* Detalles */}
-                        <div className="mt-[12px]">
-                            <ul className="text-semisubtitulo">
-                                <li><span>Con posibilidades de extensión.</span></li>
-                                <li><span>Consulta tu cupo y utiliza nuestro</span></li>
-                                <li><span>Simulador de Crédito.</span></li>
+                        <div className="mt-[12px] w-[50%]">
+                            <ul className="text-semisubtitulo text-shadow">
+                                <li><span>⦁ Plante Básico: encuéntralo en tu factura o consultado<a className=" text-blue-500"> AQUÍ.</a></span></li>
+                                <li><span>⦁	Plante plus: aumenta tu cupo hasta $9.964.500</span></li>
+                                <li><span>⦁	Plante personalizado: Cupo ilimitado, asignado según tu capacidad de endeudamiento. </span></li>
+                                <li><span>⦁	Plante de temporada: 3 veces en el año Mi Plante te aumenta tu cupo</span></li>
                             </ul>
                         </div>
                     </div>
@@ -128,8 +129,12 @@ export default function Page() {
                             <span className="font-titulo text-[250px]">¡?</span>
                         </div>
 
+                        <div className="text-center">
+                            <span className="font-titulo text-[60px] z-20 leading-10"> Tan facil <br/> como</span>
+                        </div>
+
                         {/* Items */}
-                        <div className="mt-[100px]">
+                        <div className="mt-[50px]">
                              {/* Item */}
                             <div className="mb-[70px] flex">
                                 {/* Numero */}
@@ -221,7 +226,7 @@ export default function Page() {
                         <div className="text-center">
                             {/* Image */}
                             <div>
-                                <Image src={'/images/seccion/image1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
+                                <Image className="rounded-3xl" src={'/images/seccion/img1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
@@ -239,7 +244,7 @@ export default function Page() {
                         <div className="text-center">
                             {/* Image */}
                             <div>
-                                <Image src={'/images/seccion/image2.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
+                                <Image className="rounded-3xl" src={'/images/seccion/img3.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
@@ -257,7 +262,7 @@ export default function Page() {
                         <div className="text-center">
                             {/* Image */}
                             <div>
-                                <Image src={'/images/seccion/image3.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
+                                <Image className="rounded-3xl" src={'/images/seccion/img4.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
                             </div>
 
                             {/* Titulo */}
