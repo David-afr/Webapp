@@ -6,7 +6,7 @@ const Dropdown = () => {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#6cb332] px-3 py-2 text-sm font-semibold text-white ring-1 shadow-xs ring-inset hover:bg-[#6cb332]">
-          Ingresa como:
+          Registrate como:
           <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5 text-white" />
         </MenuButton>
       </div>

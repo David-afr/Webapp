@@ -59,24 +59,31 @@ const Footer = () => {
                     <div className="mt-4">
                         <ul className="text-right">
                             <li>
-                                <Link href="/" className="cursor-pointer text-lg">Inicio</Link>
+                                <Link href="/" className="cursor-pointer">Inicio</Link>
                             </li>
                             <li>
-                                <Link href="/nosotros" className="cursor-pointer text-lg">Nosotros</Link>
+                                <Link href="/nosotros" className="cursor-pointer">Nosotros</Link>
                             </li>
                             <li>
-                                <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
+                                <a href="https://market.miplante.com" className="cursor-pointer">Marketplace</a>
                             </li>
                             <li>
-                                <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
+                                <a href="#" className="cursor-pointer">Conoce sobre tu seguro</a>
                             </li>
                             <li>
-                                <Link href="/preguntas-frecuentes" className="cursor-pointer text-lg">Preguntas frecuentes</Link>
+                                <Link href="/preguntas-frecuentes" className="cursor-pointer">Preguntas frecuentes</Link>
                             </li>
                             {/* Dropdown Menu */}
-                            <div className="mt-2">
+                            <div className="my-2">
                                 <Dropdown/>
                             </div>
+                            <li>
+                                <a href="#" className="cursor-pointer">Protección de datos</a>
+                            </li>
+
+                            <li>
+                                <a href="#" className="cursor-pointer">Términos y Condiciones de uso</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -29,10 +29,6 @@ const Header = () => {
                         <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
                     </div>
 
-                    <div className="pr-3 mr-3">
-                        <Link href="/preguntas-frecuentes" className="cursor-pointer text-lg">Preguntas frecuentes</Link>
-                    </div>
-
                     {/* Dropdown Menu */}
                     <div>
                         <Dropdown/>
