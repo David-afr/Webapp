@@ -1,5 +1,7 @@
 import React from "react";
 import Logo from "../Global/Logo";
+import Link from "next/link";
+import Dropdown from "../Dropdown/Dropdown";
 
 const Footer = () => {
     return(
@@ -42,15 +44,41 @@ const Footer = () => {
                         </a>
                     </div>
 
-                    <span className="text-semisubtitulo"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
-                    
+                    <span className="text-semisubtitulo inline-block mt-2"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
                 </div>
 
 
 
-                {/* Logo */}
                 <div>
-                    <Logo width={220} height={200} />
+                    {/* Logo */}
+                    <div>
+                        <Logo width={220} height={200} />
+                    </div>
+
+                    {/* Menu */}
+                    <div className="mt-4">
+                        <ul className="text-right">
+                            <li>
+                                <Link href="/" className="cursor-pointer text-lg">Inicio</Link>
+                            </li>
+                            <li>
+                                <Link href="/nosotros" className="cursor-pointer text-lg">Nosotros</Link>
+                            </li>
+                            <li>
+                                <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
+                            </li>
+                            <li>
+                                <Link href="/preguntas-frecuentes" className="cursor-pointer text-lg">Preguntas frecuentes</Link>
+                            </li>
+                            {/* Dropdown Menu */}
+                            <div className="mt-2">
+                                <Dropdown/>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

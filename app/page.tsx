@@ -206,7 +206,7 @@ export default function Page() {
             </div>
 
             {/* Negocios */}
-            <div className="w-full bg-white py-initSectionY px-iniSectionX">
+            <div className="w-full bg-gray-100 bg-hands py-initSectionY px-iniSectionX">
                 <div className="w-full">
                     {/* Titulo */}
                     <h3 className="font-titulo text-titulo text-celeste uppercase">
@@ -226,29 +226,9 @@ export default function Page() {
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="pt-[90px] grid grid-cols-3 gap-[150px]">
+                    <div className="pt-[90px] flex justify-center">
                         {/* Item */}
-                        <div className="border-l-2 pl-8">
-                           {/* {/* Icono */}
-                            <div className="relative">
-                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="relative z-10 size-14">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
-                                </svg>
-                            </div>
-
-                            {/* Titulo */}
-                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Pagos mensuales</h4></div>
-
-                            {/* Descripcion */}
-                            <div className="mt-1">
-                                <span className="text-lg">personalizados según tus ingresos</span>
-                            </div>
-                        </div>
-
-                        {/* Item */}
-                        <div className="border-l-2 pl-8">
+                        <div>
                             {/* Icono */}
                             <div className="relative">
                                 <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
@@ -265,26 +245,6 @@ export default function Page() {
                             {/* Descripcion */}
                             <div className="mt-1">
                                 <span className="text-lg"><strong>o pagos en efectivo</strong> en nuestras oficinas.</span>
-                            </div>
-                        </div>
-
-                        {/* Item */}
-                        <div className="border-l-2 pl-8">
-                            {/* Icono */}
-                            <div className="relative">
-                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="relative z-10 size-14">
-                                    <path fillRule="evenodd" d="M2.25 5.25a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3V15a3 3 0 0 1-3 3h-3v.257c0 .597.237 1.17.659 1.591l.621.622a.75.75 0 0 1-.53 1.28h-9a.75.75 0 0 1-.53-1.28l.621-.622a2.25 2.25 0 0 0 .659-1.59V18h-3a3 3 0 0 1-3-3V5.25Zm1.5 0v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5Z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-
-                            {/* Titulo */}
-                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Plataformas en línea</h4></div>
-
-                            {/* Descripcion */}
-                            <div className="mt-1">
-                                <span className="text-lg">para realizar pagos desde cualquier lugar.</span>
                             </div>
                         </div>
                     </div>

@@ -8,11 +8,10 @@ import Image from 'next/image';
 const Carousel2: React.FC = () => {
     return(
         <div>
-            <Splide className="px-[20%] mt-[40px] items-center justify-center "
+            <Splide className="px-[10%] mt-[60px] items-center justify-center "
             aria-label="My Favorite Images"
-            options={{ type: 'loop', perPage: 3, autoplay: true, arrows: true, pagination: false, gap: '4rem', speed: 5000, interval: 9000 }}
+            options={{ type: 'loop', perPage: 3, autoplay: true, arrows: true, pagination: false, gap: '5rem', speed: 5000, interval: 9000 }}
             >
-            
                 <SplideSlide className="flex justify-center items-center">
                     {/* Materiales de contruccion */}
                     <div className="text-center">
@@ -26,7 +25,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -38,15 +37,15 @@ const Carousel2: React.FC = () => {
                         <div>
                             <Image className="rounded-3xl" src={'/images/seccion/educacion.jpg'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
                         </div>
-                    
+
                         {/* Titulo */}
                         <div className="mt-[30px]">
                             <h3 className="text-celeste font-bold text-[26px] ">Educación</h3>
                         </div>
-                    
+
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -64,7 +63,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -82,7 +81,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -100,7 +99,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -118,7 +117,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -136,7 +135,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -154,7 +153,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -172,7 +171,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
+                            <a href="#" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
