@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Carousel from "./components/Carousel/Carousel";
+import Carousel2 from "./components/Carousel2/Carousel2";
 
 export default function Page() {
     return (
@@ -12,20 +13,6 @@ export default function Page() {
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
                         <h2 className="leading-none text-[14vw] text-wrap text-center font-titulo mb-[-20px] text-white">Bienvenidos</h2>
-
-                        {/* Info */}
-                        <div className="mt-[2.2vw]">
-                            <p className="text-right text-[1.1vw] text-white leading-[1.5vw]">
-                                Somos una empresa dedicada a
-                                <br/>ofrecer soluciones financieras
-                                <br/>rápidas y confiables para que
-                                <br/>puedas alcanzar tus metas.
-                                <br/><strong className="font-bold text-[1.4vw]">Contamos con más de</strong>
-                                <br/><strong className="font-bold text-[1.4vw]">10 años de experiencia</strong>
-                                <br/>ayudando a nuestros clientes a
-                                <br/>financiar sus sueños.
-                            </p>
-                        </div>
                     </div>
 
                     {/* Persona */}
@@ -37,12 +24,13 @@ export default function Page() {
                     {/* Cupos */}
                     <div className="px-iniSectionX pb-[100px] z-30 relative justify-self-end">
                         {/* Titulo */}
+                        <div></div>
                         <div className="inline-block">
-                            <h2 className="text-semititulo bg-verde px-7 rounded-[60px] font-bold">NUESTROS PLANTES</h2>
+                            <h2 className="text-semititulo font-titulo  bg-verde px-7 rounded-[60px]">NUESTROS PLANTES</h2>
                         </div>
 
                         {/* Detalles */}
-                        <div className="mt-[12px] w-[50%]">
+                        <div className="mt-[12px] w-[50%] ">
                             <ul className="text-semisubtitulo text-shadow">
                                 <li><span>⦁ Plante Básico: encuéntralo en tu factura o consultado<a className=" text-blue-500"> AQUÍ.</a></span></li>
                                 <li><span>⦁	Plante plus: aumenta tu cupo hasta $9.964.500</span></li>
@@ -71,6 +59,9 @@ export default function Page() {
                             {/* Correo */}
                             <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
 
+                            {/* Contrato */}
+                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="number" placeholder="Contrato"/>
+
                             {/* Telefono */}
                             <div className="mb-5 flex">
                                 {/* Telefono */}
@@ -79,9 +70,15 @@ export default function Page() {
                                 {/* Linea */}
                                 <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
                                     <option defaultValue="">Selecciona una línea de interés</option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
+                                    <option value="1">Movilidad</option>
+                                    <option value="2">Electrodomésticos</option>
+                                    <option value="3">Material de construcción</option>
+                                    <option value="4">Viajes</option>
+                                    <option value="5">Seguros</option>
+                                    <option value="6">Educación</option>
+                                    <option value="7">Salud y Belleza</option>
+                                    <option value="8">Tecnología</option>
+                                    <option value="9">Hogar</option>
                                 </select>
                             </div>
 
@@ -123,18 +120,14 @@ export default function Page() {
                 <div className="absolute flex items-end select-none right-[3vw] 4xl:right-[10vw] bottom-[-6.1vw] z-10">
                     <div className="translate-y-[-10vw] w-0 h-0 border-t-[30px] border-t-transparent border-b-[30px] border-b-transparent border-r-[60px] border-r-verde"></div>
 
-                    <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw]">
-                        {/* Titulo */}
-                        <div className="text-right px-10">
-                            <span className="font-titulo text-[250px]">¡?</span>
-                        </div>
+                    <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw] pt-[130px]">
 
                         <div className="text-center">
-                            <span className="font-titulo text-[60px] z-20 leading-10"> Tan facil <br/> como</span>
+                            <span className="font-titulo text-[60px] z-20 leading-10"> Tan Fácil <br/> como</span>
                         </div>
 
                         {/* Items */}
-                        <div className="mt-[50px]">
+                        <div className="mt-[90px]">
                              {/* Item */}
                             <div className="mb-[70px] flex">
                                 {/* Numero */}
@@ -220,62 +213,8 @@ export default function Page() {
                         NUESTRAS LÍNEAS DE NEGOCIO
                     </h3>
 
-                    {/* Tipos */}
-                    <div className="pt-[90px] grid grid-cols-3 gap-[150px]">
-                        {/* Item 1 */}
-                        <div className="text-center">
-                            {/* Image */}
-                            <div>
-                                <Image className="rounded-3xl" src={'/images/seccion/img1.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
-                            </div>
-
-                            {/* Titulo */}
-                            <div className="mt-[30px]">
-                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 1</h3>
-                            </div>
-
-                            {/* informacion */}
-                            <div className="px-6 mt-[15px]">
-                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
-                            </div>
-                        </div>
-
-                        {/* Item 2 */}
-                        <div className="text-center">
-                            {/* Image */}
-                            <div>
-                                <Image className="rounded-3xl" src={'/images/seccion/img3.png'} alt="Linea de negocio 1" layout="responsive" width={300} height={300} />
-                            </div>
-
-                            {/* Titulo */}
-                            <div className="mt-[30px]">
-                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 2</h3>
-                            </div>
-
-                            {/* informacion */}
-                            <div className="px-6 mt-[15px]">
-                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
-                            </div>
-                        </div>
-
-                        {/* Item 3 */}
-                        <div className="text-center">
-                            {/* Image */}
-                            <div>
-                                <Image className="rounded-3xl" src={'/images/seccion/img4.png'} alt="Linea de negocio 3" layout="responsive" width={300} height={300} />
-                            </div>
-
-                            {/* Titulo */}
-                            <div className="mt-[30px]">
-                                <h3 className="text-celeste font-bold text-[26px]">Línea de negocio 3</h3>
-                            </div>
-
-                            {/* informacion */}
-                            <div className="px-6 mt-[15px]">
-                                <a href="#" className="bg-celeste px-2 block rounded-xl">Más información</a>
-                            </div>
-                        </div>
-                    </div>
+                    {/* Carousel 2 */}
+                    <Carousel2/>
                 </div>
             </div>
 
@@ -290,7 +229,7 @@ export default function Page() {
                     <div className="pt-[90px] grid grid-cols-3 gap-[150px]">
                         {/* Item */}
                         <div className="border-l-2 pl-8">
-                            {/* Icono */}
+                           {/* {/* Icono */}
                             <div className="relative">
                                 <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
 

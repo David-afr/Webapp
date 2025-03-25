@@ -8,7 +8,7 @@ import "./page.css";
 const rootlayout: FC<PropsWithChildren> = ({children}) => {
     return (
         <html>
-            <body>
+            <body className="antialiased">
                 <Header/>
 
                 {children}

@@ -41,7 +41,12 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
+
+                    <span className="text-semisubtitulo"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
+                    
                 </div>
+
+
 
                 {/* Logo */}
                 <div>
