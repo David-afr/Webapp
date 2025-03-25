@@ -26,12 +26,12 @@ export default function Page() {
                         {/* Titulo */}
                         <div></div>
                         <div className="inline-block">
-                            <h2 className="text-semititulo font-titulo  bg-verde px-7 rounded-[60px]">NUESTROS PLANTES</h2>
+                            <h2 className="text-semititulo font-titulo bg-verde px-7 rounded-[60px]">NUESTROS PLANTES</h2>
                         </div>
 
                         {/* Detalles */}
-                        <div className="mt-[12px] w-[50%] ">
-                            <ul className="text-semisubtitulo text-shadow">
+                        <div className="mt-[12px] w-[50%] bg-gray-900 bg-opacity-20 backdrop-blur-sm rounded p-2">
+                            <ul className="text-semisubtitulo">
                                 <li><span>⦁ Plante Básico: encuéntralo en tu factura o consultado<a className=" text-blue-500"> AQUÍ.</a></span></li>
                                 <li><span>⦁	Plante plus: aumenta tu cupo hasta $9.964.500</span></li>
                                 <li><span>⦁	Plante personalizado: Cupo ilimitado, asignado según tu capacidad de endeudamiento. </span></li>
