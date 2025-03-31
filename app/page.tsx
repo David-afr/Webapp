@@ -219,14 +219,25 @@ export default function Page() {
             </div>
 
             {/* Opciones de pago */}
-            <div className="w-full bg-verde py-initSectionY px-iniSectionX">
-                <div className="w-full">
+            <div className="w-full bg-verde py-10 px-iniSectionX">
+                <div className="w-[60%] items-center mx-auto">
                     {/* Titulo */}
                     <h3 className="font-titulo text-center text-titulo text-white uppercase">
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="pt-[90px] flex justify-center">
+                    <div className="pt-[90px] flex justify-between">
+                        {/* Item */}
+                        <div>
+                            {/* Titulo */}
+                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7 ">Fácil Pago</h4></div>
+
+                            {/* Descripcion */}
+                            <div className="mt-1">
+                                <span className="text-lg">Podrás pagar tus cuotas a través <br/>de tu factura de servicios públicos</span>
+                            </div>
+                        </div>
+
                         {/* Item */}
                         <div>
                             {/* Icono */}
@@ -247,6 +258,7 @@ export default function Page() {
                                 <span className="text-lg"><strong>o pagos en efectivo</strong> en nuestras oficinas.</span>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

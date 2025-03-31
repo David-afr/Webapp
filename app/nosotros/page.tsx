@@ -3,11 +3,13 @@ export default function Page() {
         <>
             {/* Inicio */}
             <div className="pt-initPage bg-nosotros flex justify-center h-[78vh]">
-                <div className="max-w-[50%] text-subtitulo py-initSectionY">
+                <div className="max-w-[50%] text-semisubtitulo py-initSectionY">
                     <div className="font-light text-center">
                         <p className="text-white">
-                            Somos una empresa dedicada a ofrecer soluciones financieras rápidas y confiables para que puedas alcanzar tus metas.
-                            <br/><strong className="bg-verde px-3 rounded font-bold">Contamos con más de 10 años de experiencia</strong> ayudando a nuestros clientes a financiar sus sueños.
+                            HHO Renting es una empresa con más de 14 años de experiencia, dedicada a desarrollar soluciones innovadoras con impacto social. A través de su 
+                            marca <strong className="bg-verde px-3 rounded-lg font-bold">MI PLANTE,</strong> ofrece servicios financieros inclusivos para los suscriptores 
+                            residenciales de Emcali. Su misión es promover la inclusión financiera en los estratos residenciales, facilitando el acceso a bienes y servicios 
+                            mediante un proceso de financiación accesible, ágil y 100% digital, especialmente para personas sin historial crediticio o con empleo informal.
                         </p>
                     </div>
                 </div>

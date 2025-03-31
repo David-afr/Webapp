@@ -5,8 +5,42 @@ import Dropdown from "../Dropdown/Dropdown";
 
 const Footer = () => {
     return(
-        <div className="bg-footer w-full px-iniSectionX py-initSectionY">
+        <div className="bg-footer w-full px-iniSectionX py-10">
             <div className="flex items-center justify-between">
+                <div>
+
+                    {/* Menu */}
+                    <div className="mt-4">
+                        <ul className="text-right">
+                            <li>
+                                <Link href="/" className="cursor-pointer">Inicio</Link>
+                            </li>
+                            <li>
+                                <Link href="/nosotros" className="cursor-pointer">Nosotros</Link>
+                            </li>
+                            <li>
+                                <a href="https://market.miplante.com" className="cursor-pointer">Marketplace</a>
+                            </li>
+                            <li>
+                                <a href="#" className="cursor-pointer">Conoce sobre tu seguro</a>
+                            </li>
+                            <li>
+                                <Link href="/preguntas-frecuentes" className="cursor-pointer">Preguntas frecuentes</Link>
+                            </li>
+                            <li>
+                                <a href="#" className="cursor-pointer">Equipo</a>
+                            </li>
+                            <li>
+                                <a href="#" className="cursor-pointer">Protección de datos</a>
+                            </li>
+
+                            <li>
+                                <a href="#" className="cursor-pointer">Términos y Condiciones de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
                 {/* Copyright y Redes Sociales */}
                 <div>
                     <footer><span className="text-semisubtitulo">© 2024 Mi Plante, Todos los derechos reservados.</span></footer>
@@ -47,46 +81,11 @@ const Footer = () => {
                     <span className="text-semisubtitulo inline-block mt-2"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
                 </div>
 
-
-
+                {/* Logo */}
                 <div>
-                    {/* Logo */}
-                    <div>
-                        <Logo width={220} height={200} />
-                    </div>
-
-                    {/* Menu */}
-                    <div className="mt-4">
-                        <ul className="text-right">
-                            <li>
-                                <Link href="/" className="cursor-pointer">Inicio</Link>
-                            </li>
-                            <li>
-                                <Link href="/nosotros" className="cursor-pointer">Nosotros</Link>
-                            </li>
-                            <li>
-                                <a href="https://market.miplante.com" className="cursor-pointer">Marketplace</a>
-                            </li>
-                            <li>
-                                <a href="#" className="cursor-pointer">Conoce sobre tu seguro</a>
-                            </li>
-                            <li>
-                                <Link href="/preguntas-frecuentes" className="cursor-pointer">Preguntas frecuentes</Link>
-                            </li>
-                            {/* Dropdown Menu */}
-                            <div className="my-2">
-                                <Dropdown/>
-                            </div>
-                            <li>
-                                <a href="#" className="cursor-pointer">Protección de datos</a>
-                            </li>
-
-                            <li>
-                                <a href="#" className="cursor-pointer">Términos y Condiciones de uso</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Logo width={280} height={500} />
                 </div>
+
             </div>
         </div>
     );
