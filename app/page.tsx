@@ -112,7 +112,7 @@ export default function Page() {
                 <div className="w-[60%] 4xl:w-[53%]">
                     <h4 className="text-celeste font-bold text-[28px] leading-8">
                         *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados.
-                        <span className="text-gray-600 font-light text-[22px]"> <span className="border-b border-verde">Más información</span>.</span>
+                        <span className="text-gray-600 font-light text-[22px]"> <a href="https://market.miplante.com/#brands-revolu-section" className="border-b border-verde">Más información</a>.</span>
                     </h4>
                 </div>
 
@@ -226,18 +226,7 @@ export default function Page() {
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="pt-[90px] flex justify-between">
-                        {/* Item */}
-                        <div>
-                            {/* Titulo */}
-                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7 ">Fácil Pago</h4></div>
-
-                            {/* Descripcion */}
-                            <div className="mt-1">
-                                <span className="text-lg">Podrás pagar tus cuotas a través <br/>de tu factura de servicios públicos</span>
-                            </div>
-                        </div>
-
+                    <div className="pt-[70px] flex justify-center">
                         {/* Item */}
                         <div>
                             {/* Icono */}
@@ -249,16 +238,14 @@ export default function Page() {
                                     <path fillRule="evenodd" d="M7.125 1.5A3.375 3.375 0 0 0 3.75 4.875v14.25A3.375 3.375 0 0 0 7.125 22.5h9.75a3.375 3.375 0 0 0 3.375-3.375V4.875A3.375 3.375 0 0 0 16.875 1.5h-9.75ZM6 4.875c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125v14.25c0 .621-.504 1.125-1.125 1.125h-9.75A1.125 1.125 0 0 1 6 19.125V4.875Z" clipRule="evenodd" />
                                 </svg>
                             </div>
-
                             {/* Titulo */}
-                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7">Transferencias bancarias</h4></div>
+                            <div className="mt-2"><h4 className="font-bold text-2xl text-verdeAgua leading-7 ">Fácil Pago</h4></div>
 
                             {/* Descripcion */}
                             <div className="mt-1">
-                                <span className="text-lg"><strong>o pagos en efectivo</strong> en nuestras oficinas.</span>
+                                <span className="text-lg">Podrás pagar tus cuotas a través <br/>de tu factura de servicios públicos</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

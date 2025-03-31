@@ -25,7 +25,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/713" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/713" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -45,7 +45,7 @@ const Carousel2: React.FC = () => {
 
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/716" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/716" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -63,7 +63,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/712" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/712" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -81,7 +81,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/25" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/25" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -99,7 +99,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/711" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/711" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -117,7 +117,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/717" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/717" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -135,7 +135,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/715" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/715" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -153,7 +153,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/618" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/618" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>
@@ -171,7 +171,7 @@ const Carousel2: React.FC = () => {
                         </div>
                         {/* informacion */}
                         <div className="px-6 mt-[15px]">
-                            <a href="https://market.miplante.com/category/714" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
+                            <a href="https://market.miplante.com/category/714" target="_blank" className="bg-celeste px-2 block rounded-xl text-nowrap">Más información</a>
                         </div>
                     </div>
                 </SplideSlide>

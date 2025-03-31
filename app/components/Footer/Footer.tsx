@@ -10,7 +10,7 @@ const Footer = () => {
 
                     {/* Menu */}
                     <div className="mt-4">
-                        <ul className="text-right">
+                        <ul className="text-left">
                             <li>
                                 <Link href="/" className="cursor-pointer">Inicio</Link>
                             </li>
