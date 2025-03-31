@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../Global/Logo";
 import Link from "next/link";
-import Dropdown from "../Dropdown/Dropdown";
 
 const Footer = () => {
     return(
