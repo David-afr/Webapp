@@ -123,7 +123,7 @@ export default function Page() {
                     <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw] pt-[130px]">
 
                         <div className="text-center">
-                            <span className="font-titulo text-[60px] z-20 leading-10"> Tan Fácil <br/> como</span>
+                            <span className="font-titulo text-[60px] z-20 leading-10"> Aqui todo <br/> es Simple</span>
                         </div>
 
                         {/* Items */}
@@ -219,14 +219,14 @@ export default function Page() {
             </div>
 
             {/* Opciones de pago */}
-            <div className="w-full bg-verde py-10 px-iniSectionX">
+            <div className="w-full bg-verde py-2 px-iniSectionX">
                 <div className="w-[60%] items-center mx-auto">
                     {/* Titulo */}
                     <h3 className="font-titulo text-center text-titulo text-white uppercase">
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="pt-[70px] flex justify-center">
+                    <div className="pt-[10px] flex justify-center">
                         {/* Item */}
                         <div>
                             {/* Icono */}

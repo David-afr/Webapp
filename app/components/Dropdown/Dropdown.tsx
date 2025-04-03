@@ -18,7 +18,7 @@ const Dropdown = () => {
         <div className="py-1">
           <MenuItem>
             <a
-              href="#"
+              href="https://app.miplante.com/register/ally-register"
               className="block px-4 py-2 text-white data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
             >
               Aliado
@@ -26,7 +26,7 @@ const Dropdown = () => {
           </MenuItem>
           <MenuItem>
             <a
-              href="#"
+              href="https://app.miplante.com/register/client-register"
               className="block px-4 py-2 text-white data-focus:bg-gray-100 data-focus:text-gray-900 data-focus:outline-hidden"
             >
               Cliente
