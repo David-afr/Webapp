@@ -54,18 +54,17 @@ export default function Page() {
                     <div className="mt-[20px]">
                         <form className="w-2/3 flex-col" action="">
                             {/* Nombre */}
-                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Nombre completo"/>
-
+                            <input   className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300"  type="text"  placeholder="Nombre completo" />
                             {/* Correo */}
-                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
+                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
 
                             {/* Contrato */}
-                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="number" placeholder="Contrato"/>
+                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="number" placeholder="Contrato"/>
 
                             {/* Telefono */}
                             <div className="mb-5 flex">
                                 {/* Telefono */}
-                                <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-gray-200 border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
+                                <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
 
                                 {/* Linea */}
                                 <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
@@ -89,7 +88,7 @@ export default function Page() {
                                         <input className="mr-2 bg-white rounded-lg p-2 w-8 h-8 border-2 border-gray-300" type="checkbox" />
 
                                         <div className="text-gray-400 text-sm">
-                                            <span>Acepto los terminos y condiciones generales</span>
+                                            <span>Acepto los terminos y condiciones generales. </span>
                                             <span>Autorizo el tratamiento de mis datos personales para el servicio de Mi Plante</span>
                                         </div>
                                     </label>
