@@ -30,7 +30,7 @@ const Header = () =>
     }, []);
 
     return(
-        <header className="py-globalY px-iniSectionX absolute left-0 right-0 z-[1000]">
+        <header className="py-globalY px-[20] sm:px-iniSectionX absolute left-0 right-0 z-[1000]">
             <div className="flex items-center justify-between w-full">
                 {/* Logo */}
                 <div><Logo width={160} height={100}/></div>
