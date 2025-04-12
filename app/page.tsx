@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <>
             {/* Inicio */}
-            <div className="bg-white pt-initPage overflow-visible bg-airplane h-[70.4vw] w-full">
+            <div className="bg-white pt-[60px] sm:pt-initPage overflow-visible bg-airplane h-[70.4vw] w-full">
                 <div className="relative flex flex-col h-full justify-between">
                     {/* Titulo */}
                     <div className="w-full px-iniSectionX">
@@ -22,7 +22,7 @@ export default function Page() {
 
 
                     {/* Cupos */}
-                    <div className="px-iniSectionX pb-[100px] z-30 relative justify-self-end">
+                    <div className="hidden sm:block px-iniSectionX pb-[100px] z-30 relative justify-self-end">
                         {/* Titulo */}
                         <div></div>
                         <div className="inline-block">

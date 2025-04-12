@@ -5,11 +5,12 @@ import Link from "next/link";
 interface LogoProps {
     width: number;
     height: number;
+    className?: string;
 }
 
-const Logo: React.FC<LogoProps> = ({ width, height }) => {
+const Logo: React.FC<LogoProps> = ({ width, height, className }) => {
     return (
-        <div className="select-none">
+        <div className={`select-none ${className}`}>
             <Link href={"/"}>
                 <Image
                     src={'/images/logo.png'}
