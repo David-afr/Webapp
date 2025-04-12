@@ -3,7 +3,8 @@ import Link from "next/link";
 import Logo from "../Global/Logo";
 import Dropdown from "../../components/Dropdown/Dropdown"
 
-const Header = () => {
+const Header = () =>
+{
     return(
         <header className="py-globalY px-iniSectionX absolute left-0 right-0 z-[1000]">
             <div className="flex items-center justify-between w-full">
@@ -11,28 +12,49 @@ const Header = () => {
                 <div><Logo width={160} height={100}/></div>
 
                 {/* Menu */}
-                <div className="flex items-center capitalize">
-                    <div className="border-r pr-3 mr-3">
+                <div className="fixed top-0 bottom-0 w-[50vw] left-0 h-full z-[99999] bg-white sm:bg-transparent sm:relative flex flex-col sm:flex-row sm:items-center capitalize shadow-lg sm:shadow-none">
+                    <div className="border-b sm:border-b-0 sm:border-r px-4 py-2 sm:py-0 sm:pr-3 sm:mr-3 flex items-center text-celeste sm:text-white">
                         <Link className="cursor-pointer" href="/">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 sm:size-7">
                                 <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
                                 <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
                             </svg>
                         </Link>
+                        <span className="inline-block ml-2 sm:hidden text-sm sm:text-lg">Inicio</span>
                     </div>
 
-                    <div className="border-r pr-3 mr-3">
-                        <Link href="/nosotros" className="cursor-pointer text-lg">Nosotros</Link>
+                    <div className="border-b sm:border-b-0 sm:border-r px-4 py-2 sm:py-0 sm:pr-3 sm:mr-3 text-celeste sm:text-white">
+                        <Link href="/nosotros" className="cursor-pointer text-sm sm:text-lg">Nosotros</Link>
                     </div>
 
-                    <div className="border-r pr-3 mr-3">
-                        <a href="https://market.miplante.com" className="cursor-pointer text-lg">Marketplace</a>
+                    <div className="border-b sm:border-b-0 sm:border-r px-4 py-2 sm:py-0 sm:pr-3 sm:mr-3 text-celeste sm:text-white">
+                        <a href="https://market.miplante.com" className="cursor-pointer text-sm sm:text-lg">Marketplace</a>
+                    </div>
+
+                    <div className="block sm:hidden">
+                        <div className="border-b px-4 py-2 text-celeste">
+                            <a href="https://app.miplante.com/register/ally-register" className="cursor-pointer text-sm sm:text-lg">Aliado</a>
+                        </div>
+
+                        <div className="border-b px-4 py-2 text-celeste">
+                            <a href="https://app.miplante.com/register/client-register" className="cursor-pointer text-sm sm:text-lg">Cliente</a>
+                        </div>
                     </div>
 
                     {/* Dropdown Menu */}
-                    <div>
+                    <div className="hidden sm:block">
                         <Dropdown/>
                     </div>
+                </div>
+
+                <div className="bg-[#0000003f] fixed top-0 bottom-0 left-0 right-0"></div>
+
+                <div className="relative block sm:hidden">
+                    <button className="bg-white rounded shadow-lg p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-[26px] h-[26px] text-celeste font-bold">
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
                 </div>
             </div>
         </header>
