@@ -1,10 +1,18 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "../Global/Logo";
 import Dropdown from "../../components/Dropdown/Dropdown"
 
 const Header = () =>
 {
+    const [showMenu, setShowMenu] = useState(false);
+
+    const toggleMenu = () => {
+        setShowMenu(!showMenu);
+    };
+
     return(
         <header className="py-globalY px-iniSectionX absolute left-0 right-0 z-[1000]">
             <div className="flex items-center justify-between w-full">
@@ -12,7 +20,9 @@ const Header = () =>
                 <div><Logo width={160} height={100}/></div>
 
                 {/* Menu */}
-                <div className="fixed top-0 bottom-0 w-[50vw] left-0 h-full z-[99999] bg-white sm:bg-transparent sm:relative flex flex-col sm:flex-row sm:items-center capitalize shadow-lg sm:shadow-none">
+                <div
+                    className={`fixed top-0 bottom-0 w-[50vw] h-full z-[99999] bg-white sm:bg-transparent sm:relative sm:flex flex-col sm:flex-row sm:justify-end sm:items-center capitalize shadow-lg sm:shadow-none transition-all duration-200 ease-in-out ${showMenu ? 'left-0' : '-left-[51vw] sm:left-auto'} sm:block`}
+                >
                     <div className="border-b sm:border-b-0 sm:border-r px-4 py-2 sm:py-0 sm:pr-3 sm:mr-3 flex items-center text-celeste sm:text-white">
                         <Link className="cursor-pointer" href="/">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-5 sm:size-7">
@@ -47,12 +57,12 @@ const Header = () =>
                     </div>
                 </div>
 
-                <div className="bg-[#0000003f] fixed top-0 bottom-0 left-0 right-0"></div>
+                <div className={`bg-[#0000003f] fixed top-0 bottom-0 left-0 right-0 ${showMenu ? 'block' : 'hidden'} sm:hidden`}></div>
 
-                <div className="relative block sm:hidden">
-                    <button className="bg-white rounded shadow-lg p-1">
+                <div className="relative block sm:hidden" id="menu-button">
+                    <button className="bg-white rounded shadow-lg p-1" onClick={toggleMenu}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-[26px] h-[26px] text-celeste font-bold">
-                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path>
+                            <path fillRule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clipRule="evenodd"></path>
                         </svg>
                     </button>
                 </div>
