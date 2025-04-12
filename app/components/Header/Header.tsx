@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Logo from "../Global/Logo";
 import Dropdown from "../../components/Dropdown/Dropdown"
@@ -12,6 +12,18 @@ const Header = () =>
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setShowMenu(false);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     return(
         <header className="py-globalY px-iniSectionX absolute left-0 right-0 z-[1000]">
