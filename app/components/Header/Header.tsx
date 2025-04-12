@@ -13,6 +13,10 @@ const Header = () =>
         setShowMenu(!showMenu);
     };
 
+    const closeMenu = () => {
+        setShowMenu(false);
+    };
+
     useEffect(() => {
         const handleResize = () => {
             setShowMenu(false);
@@ -69,7 +73,7 @@ const Header = () =>
                     </div>
                 </div>
 
-                <div className={`bg-[#0000003f] fixed top-0 bottom-0 left-0 right-0 ${showMenu ? 'block' : 'hidden'} sm:hidden`}></div>
+                <div onClick={closeMenu} className={`bg-[#0000003f] fixed top-0 bottom-0 left-0 right-0 ${showMenu ? 'block' : 'hidden'} sm:hidden`}></div>
 
                 <div className="relative block sm:hidden" id="menu-button">
                     <button className="bg-white rounded shadow-lg p-1" onClick={toggleMenu}>
