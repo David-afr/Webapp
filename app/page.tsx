@@ -218,7 +218,7 @@ export default function Page() {
             </div>
 
             {/* Opciones de pago */}
-            <div className="w-full bg-verde py-2 px-iniSectionX">
+            <div className="w-full bg-verde py-globalY px-iniSectionX">
                 <div className="w-[60%] items-center mx-auto">
                     {/* Titulo */}
                     <h3 className="font-titulo text-center text-titulo text-white uppercase">
