@@ -48,7 +48,7 @@ export default function Page() {
                     <div className="px-iniSectionX py-initSectionY">
                         {/* Titulo */}
                         <div>
-                            <h2 className="text-center sm:text-left font-titulo text-celeste text-[8vw] sm:text-[8vw] sm:text-titulo">¡TE CONTACTAMOS!</h2>
+                            <h2 className="text-center sm:text-left font-titulo text-celeste text-[8vw] sm:text-titulo">¡TE CONTACTAMOS!</h2>
                         </div>
 
                         {/* Form */}
@@ -97,7 +97,7 @@ export default function Page() {
 
                                     {/* Enviar */}
                                     <div>
-                                        <button type="button" className="mt-5 sm:mt-0 shadow-md shadow-gray-400 bg-verde font-titulo text-[4.4vw] sm:text-[4.4vw] sm:text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
+                                        <button type="button" className="mt-5 sm:mt-0 shadow-md shadow-gray-400 bg-verde font-titulo text-[4.4vw] sm:text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
                                             Enviar
                                         </button>
                                     </div>
