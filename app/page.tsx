@@ -252,7 +252,7 @@ export default function Page() {
             </div>
 
             {/* Splide */}
-            <div className="w-ful px-14 bg-white">
+            <div className="w-full sm:px-14 bg-white">
                 <Carousel/>
             </div>
         </>
