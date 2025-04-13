@@ -31,7 +31,7 @@ export default function Page() {
 
                         {/* Detalles */}
                         <div className="mt-[12px] w-[50%] bg-gray-900 bg-opacity-20 backdrop-blur-sm rounded p-2">
-                            <ul className="text-semisubtitulo">
+                            <ul className="text-[3.8vw] sm:text-semisubtitulo">
                                 <li><span>⦁ Plante Básico: encuéntralo en tu factura o consultado<a className=" text-blue-500"> AQUÍ.</a></span></li>
                                 <li><span>⦁	Plante plus: aumenta tu cupo hasta $9.964.500</span></li>
                                 <li><span>⦁	Plante personalizado: Cupo ilimitado, asignado según tu capacidad de endeudamiento. </span></li>
@@ -63,12 +63,12 @@ export default function Page() {
                                 <input className="w-full sm:w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="number" placeholder="Contrato"/>
 
                                 {/* Telefono */}
-                                <div className="mb-5 flex">
+                                <div className="mb-5 sm:flex">
                                     {/* Telefono */}
-                                    <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
+                                    <input className="w-full sm:w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
 
                                     {/* Linea */}
-                                    <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
+                                    <select className="mt-5 sm:mt-0 w-full sm:w-[63%] px-3 py-2 sm:py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
                                         <option defaultValue="">Selecciona una línea de interés</option>
                                         <option value="1">Movilidad</option>
                                         <option value="2">Electrodomésticos</option>
@@ -220,21 +220,21 @@ export default function Page() {
             </div>
 
             {/* Opciones de pago */}
-            <div className="w-full bg-verde py-globalY px-iniSectionX">
-                <div className="w-[60%] items-center mx-auto">
+            <div className="w-full bg-verde py-initSectionY sm:py-globalY px-iniSectionX">
+                <div className="sm:w-[60%] items-center mx-auto">
                     {/* Titulo */}
                     <h3 className="font-titulo text-center text-[8vw] sm:text-titulo text-white uppercase">
                         OPCIONES DE PAGO
                     </h3>
 
-                    <div className="pt-[10px] flex justify-center">
+                    <div className="pt-[20px] pb-[10px] sm:pb-0 sm:pt-[10px] flex justify-center">
                         {/* Item */}
                         <div>
                             {/* Icono */}
                             <div className="relative">
-                                <span className="absolute -left-[6px] bottom-0 block w-9 h-9 rounded-full bg-verdeAgua"></span>
+                                <span className="absolute -left-[6px] bottom-0 block w-4 sm:w-9 h-4 sm:h-9 rounded-full bg-verdeAgua"></span>
 
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="relative z-10 size-14">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="relative z-10 size-10 sm:size-14">
                                     <path d="M10.5 18a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z" />
                                     <path fillRule="evenodd" d="M7.125 1.5A3.375 3.375 0 0 0 3.75 4.875v14.25A3.375 3.375 0 0 0 7.125 22.5h9.75a3.375 3.375 0 0 0 3.375-3.375V4.875A3.375 3.375 0 0 0 16.875 1.5h-9.75ZM6 4.875c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125v14.25c0 .621-.504 1.125-1.125 1.125h-9.75A1.125 1.125 0 0 1 6 19.125V4.875Z" clipRule="evenodd" />
                                 </svg>

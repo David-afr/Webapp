@@ -3,7 +3,7 @@ export default function Page() {
         <>
             {/* Inicio */}
             <div className="pt-initPage bg-nosotros flex justify-center h-[78vh]">
-                <div className="max-w-[50%] text-semisubtitulo py-initSectionY">
+                <div className="max-w-[50%] text-[3.8vw] sm:text-semisubtitulo py-initSectionY">
                     <div className="font-light text-center">
                         <p className="text-white">
                             HHO Renting es una empresa con más de 14 años de experiencia, dedicada a desarrollar soluciones innovadoras con impacto social. A través de su 

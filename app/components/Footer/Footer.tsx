@@ -5,11 +5,10 @@ import Link from "next/link";
 const Footer = () => {
     return(
         <div className="bg-footer w-full px-iniSectionX py-10">
-            <div className="flex items-center justify-between">
-                <div>
-
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between">
+                <div className="order-2 sm:order-1">
                     {/* Menu */}
-                    <div className="mt-4">
+                    <div className="mt-4 border-l pl-3 py-1 border-[#a4d7e198]">
                         <ul className="text-left">
                             <li>
                                 <Link href="/" className="cursor-pointer">Inicio</Link>
@@ -41,10 +40,10 @@ const Footer = () => {
                 </div>
 
                 {/* Copyright y Redes Sociales */}
-                <div>
-                    <footer><span className="text-semisubtitulo">© 2024 Mi Plante, Todos los derechos reservados.</span></footer>
+                <div className="order-3 sm:order-2 text-center sm:text-left mt-8 sm:mt-0">
+                    <footer><span className="text-[3.8vw] sm:text-semisubtitulo">© 2024 Mi Plante, Todos los derechos reservados.</span></footer>
 
-                    <div className="flex items-center mt-2">
+                    <div className="flex justify-center sm:justify-start items-center mt-2">
                         {/* Facebook */}
                         <a href="http://" target="_blank" rel="noopener noreferrer" className="cursor-pointer w-[32px] h-[32px] mr-[6px]">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" className="fill-white">
@@ -77,12 +76,12 @@ const Footer = () => {
                         </a>
                     </div>
 
-                    <span className="text-semisubtitulo inline-block mt-2"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
+                    <span className="text-[3.8vw] sm:text-semisubtitulo inline-block mt-2"><a  href="">Términos y Condiciones</a> - <a href="">Legal</a></span>
                 </div>
 
                 {/* Logo */}
-                <div>
-                    <Logo width={280} height={500} />
+                <div className="order-1 sm:order-3 mb-6 sm:mb-0">
+                    <Logo width={280} height={500} className="w-[150px] h-auto lg:w-[280px]"/>
                 </div>
 
             </div>
