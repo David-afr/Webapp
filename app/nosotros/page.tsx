@@ -88,7 +88,7 @@ export default function Page() {
                 </div>
 
                 {/* Map */}
-                <div className="mt-[40px] w-full sm:max-w-[85%] rounded-lg sm:rounded-[30px] overflow-hidden">
+                <div className="mt-[40px] w-full sm:w-auto sm:max-w-[85%] rounded-lg sm:rounded-[30px] overflow-hidden">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.5370391976744!2d-76.53040969999999!3d3.4620317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a7007140f3e7%3A0x15918d49225fcf11!2sEdificio%20Centro%2020!5e0!3m2!1sen!2sve!4v1743414711575!5m2!1sen!2sve" width="1060" height="560" loading="lazy"></iframe>
                 </div>
             </div>
