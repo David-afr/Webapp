@@ -19,7 +19,7 @@ export default function Page() {
             <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
                 {/* Titulo */}
                 <div className="text-center">
-                    <h2 className="text-titulo text-celeste font-titulo">Nosotros</h2>
+                    <h2 className="text-[8vw] sm:text-titulo text-celeste font-titulo">Nosotros</h2>
                 </div>
 
                 {/* Text */}
@@ -63,7 +63,7 @@ export default function Page() {
                 <div className="w-full flex justify-center">
                     {/* Mision */}
                     <div className="text-center mr-[60px] w-[40%]">
-                        <h3 className="text-white font-titulo text-titulo">Misión</h3>
+                        <h3 className="text-white font-titulo text-[8vw] sm:text-titulo">Misión</h3>
                         <p className="text-white text-xl text-justify">Somos un servicio de financiación inclusivo que facilita a los clientes residenciales de empresas de servicios públicos 
                                                             la adquisición de productos y servicios mediante créditos fáciles, rápidos y seguros. Nuestro objetivo es mejorar la 
                                                             calidad de vida de las familias, reconociendo su buen comportamiento de pago en sus facturas de servicios públicos.</p>
@@ -71,7 +71,7 @@ export default function Page() {
 
                     {/* Vision */}
                     <div className="text-center w-[40%]">
-                        <h3 className="text-white font-titulo text-titulo">Visión</h3>
+                        <h3 className="text-white font-titulo text-[8vw] sm:text-titulo">Visión</h3>
                         <p className="text-white text-xl text-justify">Para 2030, nos posicionaremos como un líder en el sector de financiación inclusiva, alcanzando una participación 
                                                             significativa en el mercado de créditos para clientes residenciales. Nos comprometemos a ser reconocidos por nuestra 
                                                             innovación en productos financieros accesibles y por mejorar la calidad de vida de las familias, estableciendo 
@@ -84,7 +84,7 @@ export default function Page() {
             <div className="bg-background py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
                 {/* Titulo */}
                 <div className="text-center">
-                    <h2 className="text-titulo text-celeste font-titulo">Ubicación</h2>
+                    <h2 className="text-[8vw] sm:text-titulo text-celeste font-titulo">Ubicación</h2>
                 </div>
 
                 {/* Map */}
@@ -97,7 +97,7 @@ export default function Page() {
             <div className="bg-verde py-initSectionY px-iniSectionX flex flex-col items-center justify-center">
                 {/* Titulo */}
                 <div className="text-center">
-                    <h2 className="text-titulo text-white font-titulo">Contacto</h2>
+                    <h2 className="text-[8vw] sm:text-titulo text-white font-titulo">Contacto</h2>
                 </div>
 
                 {/* Text */}

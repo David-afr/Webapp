@@ -3,7 +3,7 @@ export default function Page() {
         <>
             {/* Inicio */}
             <div className="pt-initPage bg-celeste flex justify-center h-[110px]">
-                <div className="max-w-[50%] text-subtitulo py-initSectionY">
+                <div className="max-w-[50%] text-[4.4vw] sm:text-subtitulo py-initSectionY">
                     <div className="font-light text-center">                        
                     </div>
                 </div>
@@ -89,7 +89,7 @@ export default function Page() {
 
                                     {/* Enviar */}
                                     <div>
-                                        <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
+                                        <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-[4.4vw] sm:text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
                                             Enviar
                                         </button>
                                     </div>

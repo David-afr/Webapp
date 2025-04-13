@@ -42,160 +42,162 @@ export default function Page() {
                 </div>
             </div>
 
-            {/* Contacto */}
-            <div className=" w-full bg-white">
-                <div className="px-iniSectionX py-initSectionY">
-                    {/* Titulo */}
-                    <div>
-                        <h2 className="font-titulo text-celeste text-titulo">¡TE CONTACTAMOS!</h2>
-                    </div>
-
-                    {/* Form */}
-                    <div className="mt-[20px]">
-                        <form className="w-2/3 flex-col" action="">
-                            {/* Nombre */}
-                            <input   className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300"  type="text"  placeholder="Nombre completo" />
-                            {/* Correo */}
-                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
-
-                            {/* Contrato */}
-                            <input className="w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="number" placeholder="Contrato"/>
-
-                            {/* Telefono */}
-                            <div className="mb-5 flex">
-                                {/* Telefono */}
-                                <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
-
-                                {/* Linea */}
-                                <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
-                                    <option defaultValue="">Selecciona una línea de interés</option>
-                                    <option value="1">Movilidad</option>
-                                    <option value="2">Electrodomésticos</option>
-                                    <option value="3">Material de construcción</option>
-                                    <option value="4">Viajes</option>
-                                    <option value="5">Seguros</option>
-                                    <option value="6">Educación</option>
-                                    <option value="7">Salud y Belleza</option>
-                                    <option value="8">Tecnología</option>
-                                    <option value="9">Hogar</option>
-                                </select>
-                            </div>
-
-                            <div className="flex items-center justify-between">
-                                {/* Terminos */}
-                                <div className="w-[63%]">
-                                    <label className="flex items-center cursor-pointer">
-                                        <input className="mr-2 bg-white rounded-lg p-2 w-8 h-8 border-2 border-gray-300" type="checkbox" />
-
-                                        <div className="text-gray-400 text-sm">
-                                            <span>Acepto los terminos y condiciones generales. </span>
-                                            <span>Autorizo el tratamiento de mis datos personales para el servicio de Mi Plante</span>
-                                        </div>
-                                    </label>
-                                </div>
-
-                                {/* Enviar */}
-                                <div>
-                                    <button type="button" className=" shadow-md shadow-gray-400 bg-verde font-titulo text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
-                                        Enviar
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            {/* Registro */}
-            <div className="w-full bg-celesteClaro py-globalY px-iniSectionX relative">
-                <div className="w-[60%] 4xl:w-[53%]">
-                    <h4 className="text-celeste font-bold text-[28px] leading-8">
-                        *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados.
-                        <span className="text-gray-600 font-light text-[22px]"> <a href="https://market.miplante.com/#brands-revolu-section" className="border-b border-verde">Más información</a>.</span>
-                    </h4>
-                </div>
-
-                {/* Listado */}
-                <div className="absolute flex items-end select-none right-[3vw] 4xl:right-[10vw] bottom-[-6.1vw] z-10">
-                    <div className="translate-y-[-10vw] w-0 h-0 border-t-[30px] border-t-transparent border-b-[30px] border-b-transparent border-r-[60px] border-r-verde"></div>
-
-                    <div className="bg-verde pb-[8.4vw] px-7 rounded-t-[5vw] pt-[130px]">
-
-                        <div className="text-center">
-                            <span className="font-titulo text-[60px] z-20 leading-10"> Aqui todo <br/> es Simple</span>
+            <div className="bg-white flex flex-col-reverse sm:block">
+                {/* Contacto */}
+                <div className="w-full bg-white">
+                    <div className="px-iniSectionX py-initSectionY">
+                        {/* Titulo */}
+                        <div>
+                            <h2 className="text-center sm:text-left font-titulo text-celeste text-[8vw] sm:text-[8vw] sm:text-titulo">¡TE CONTACTAMOS!</h2>
                         </div>
 
-                        {/* Items */}
-                        <div className="mt-[90px]">
-                             {/* Item */}
-                            <div className="mb-[70px] flex">
-                                {/* Numero */}
-                                <div className="relative ml-4 w-[70px]">
-                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[17px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">1<span className="font-titulo ml-[2px]">.</span></span>
+                        {/* Form */}
+                        <div className="mt-[20px]">
+                            <form className="w-full sm:w-2/3 flex-col" action="">
+                                {/* Nombre */}
+                                <input   className="w-full sm:w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300"  type="text"  placeholder="Nombre completo" />
+                                {/* Correo */}
+                                <input className="w-full sm:w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Correo electrónico"/>
+
+                                {/* Contrato */}
+                                <input className="w-full sm:w-[63%] px-3 py-1 mb-5 text-lg rounded-xl text-black border-2 border-gray-300" type="number" placeholder="Contrato"/>
+
+                                {/* Telefono */}
+                                <div className="mb-5 flex">
+                                    {/* Telefono */}
+                                    <input className="w-[63%] mr-5 px-3 py-1 text-lg rounded-xl text-black border-2 border-gray-300" type="text" placeholder="Teléfono / celular"/>
+
+                                    {/* Linea */}
+                                    <select className="w-[63%] px-3 py-1 text-lg rounded-xl text-white bg-[#90d4f6]">
+                                        <option defaultValue="">Selecciona una línea de interés</option>
+                                        <option value="1">Movilidad</option>
+                                        <option value="2">Electrodomésticos</option>
+                                        <option value="3">Material de construcción</option>
+                                        <option value="4">Viajes</option>
+                                        <option value="5">Seguros</option>
+                                        <option value="6">Educación</option>
+                                        <option value="7">Salud y Belleza</option>
+                                        <option value="8">Tecnología</option>
+                                        <option value="9">Hogar</option>
+                                    </select>
                                 </div>
 
-                                <div className="border-l pl-6 ml-6">
-                                    {/* Titulo */}
+                                <div className="flex flex-col sm:flex-row sm:items-center justify-between">
+                                    {/* Terminos */}
+                                    <div className="w-full sm:w-[63%]">
+                                        <label className="flex items-center cursor-pointer">
+                                            <input className="mr-2 bg-white rounded-lg p-2 w-8 h-8 border-2 border-gray-300" type="checkbox" />
+
+                                            <div className="text-gray-400 text-sm">
+                                                <span>Acepto los terminos y condiciones generales. </span>
+                                                <span>Autorizo el tratamiento de mis datos personales para el servicio de Mi Plante</span>
+                                            </div>
+                                        </label>
+                                    </div>
+
+                                    {/* Enviar */}
                                     <div>
-                                        <h5 className="text-[28px] text-white font-bold leading-7">Documentos<br/>necesarios:</h5>
-                                    </div>
-
-                                    {/* Listado */}
-                                    <div className="mt-[10px]">
-                                        <ul className="text-white">
-                                            <li className="text-xl flex items-center">
-                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                                <span>Cédula original.</span>
-                                            </li>
-                                            <li className="text-xl flex items-center">
-                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                                <span>Dos facturas de servicios<br/>de EMCALI.</span>
-                                            </li>
-                                            <li className="text-xl flex items-center">
-                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                                <span>Correo electrónico</span>
-                                            </li>
-                                            <li className="text-xl flex items-center">
-                                                <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
-                                                <span>Número de celular.</span>
-                                            </li>
-                                        </ul>
+                                        <button type="button" className="mt-5 sm:mt-0 shadow-md shadow-gray-400 bg-verde font-titulo text-[4.4vw] sm:text-[4.4vw] sm:text-subtitulo text-white px-6 py-0 rounded-l-md rounded-tr-md rounded-br-[30px] hover:shadow-gray-500 transition-all duration-200">
+                                            Enviar
+                                        </button>
                                     </div>
                                 </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+    +
+                {/* Registro */}
+                <div className="w-full bg-white sm:bg-celesteClaro py-globalY px-iniSectionX relative flex flex-col-reverse sm:block">
+                    <div className="w-full sm:w-[60%] 4xl:w-[53%]">
+                        <h4 className="text-center sm:text-left text-celeste font-bold text-[23px] sm:text-[28px] leading-8">
+                            *Tambien puedes registrarte con la ayuda de un asesor en nuestros aliados autorizados.
+                            <span className="text-gray-600 font-light text-[20px] sm:text-[22px]"> <a href="https://market.miplante.com/#brands-revolu-section" className="border-b border-verde">Más información</a>.</span>
+                        </h4>
+                    </div>
+
+                    {/* Listado */}
+                    <div className="relative -top-[50px] sm:absolute flex items-end select-none sm:right-[3vw] 4xl:right-[10vw] bottom-[-6.1vw] z-10">
+                        <div className="hidden sm:block translate-y-[-10vw] w-0 h-0 border-t-[30px] border-t-transparent border-b-[30px] border-b-transparent border-r-[60px] border-r-verde"></div>
+
+                        <div className="bg-verde pb-[10vw] sm:pb-[8.4vw] px-7 rounded-t-[5vw] pt-[100px] sm:pt-[130px]">
+
+                            <div className="text-center">
+                                <span className="font-titulo text-[50px] sm:text-[60px] z-20 leading-10"> Aqui todo <br/> es Simple</span>
                             </div>
 
-                            {/* Item */}
-                            <div className="mb-[70px] flex">
-                                {/* Numero */}
-                                <div className="relative ml-4 w-[70px]">
-                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">2<span className="font-titulo ml-[2px]">.</span></span>
-                                </div>
+                            {/* Items */}
+                            <div className="mt-[90px]">
+                                {/* Item */}
+                                <div className="mb-[40px] sm:mb-[70px] flex">
+                                    {/* Numero */}
+                                    <div className="relative ml-4 w-[55px] sm:w-[70px]">
+                                        <span className="inline-block w-5 sm:w-7 h-5 sm:h-7 bg-celeste rounded-full absolute right-[8px] top-[5px] z-10"></span>
+                                        <span className="font-titulo text-7xl sm:text-8xl text-verde text-outline mr-1 relative z-20">1<span className="font-titulo ml-[2px]">.</span></span>
+                                    </div>
 
-                                <div className="border-l pl-6 ml-6">
-                                    {/* Titulo */}
-                                    <div>
-                                        <h5 className="text-[28px] text-white font-bold leading-7">Regístrate<br/>y selecciona<br/>tu producto<br/>o servicio</h5>
+                                    <div className="border-l pl-6 ml-6">
+                                        {/* Titulo */}
+                                        <div>
+                                            <h5 className="text-[20px] sm:text-[28px] text-white font-bold leading-7">Documentos<br/>necesarios:</h5>
+                                        </div>
+
+                                        {/* Listado */}
+                                        <div className="mt-[10px]">
+                                            <ul className="text-white">
+                                                <li className="sm:text-xl flex items-center">
+                                                    <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                    <span>Cédula original.</span>
+                                                </li>
+                                                <li className="sm:text-xl flex items-center">
+                                                    <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                    <span>Dos facturas de servicios<br/>de EMCALI.</span>
+                                                </li>
+                                                <li className="sm:text-xl flex items-center">
+                                                    <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                    <span>Correo electrónico</span>
+                                                </li>
+                                                <li className="sm:text-xl flex items-center">
+                                                    <span className="w-1 h-1 bg-white mr-2 rounded-full block"></span>
+                                                    <span>Número de celular.</span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            {/* Item */}
-                            <div className="flex">
-                                {/* Numero */}
-                                <div className="relative ml-4 w-[70px]">
-                                    <span className="inline-block w-7 h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
-                                    <span className="font-titulo text-8xl text-verde text-outline mr-1 relative z-20">3<span className="font-titulo ml-[2px]">.</span></span>
+                                {/* Item */}
+                                <div className="mb-[40px] sm:mb-[70px] flex">
+                                    {/* Numero */}
+                                    <div className="relative ml-4 w-[55px] sm:w-[70px]">
+                                        <span className="inline-block w-5 sm:w-7 h-5 sm:h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
+                                        <span className="font-titulo text-7xl sm:text-8xl text-verde text-outline mr-1 relative z-20">2<span className="font-titulo ml-[2px]">.</span></span>
+                                    </div>
+
+                                    <div className="border-l pl-6 ml-6">
+                                        {/* Titulo */}
+                                        <div>
+                                            <h5 className="text-[20px] sm:text-[28px] text-white font-bold leading-7">Regístrate<br/>y selecciona<br/>tu producto<br/>o servicio</h5>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div className="border-l pl-6 ml-6">
-                                    {/* Titulo */}
-                                    <div>
-                                        <h5 className="text-[20px] text-white leading-7">
-                                            Firma<br/>los documentos<br/>de forma digital<br/>
-                                            <span className="font-bold text-[28px]">y ¡listo!</span>
-                                        </h5>
+                                {/* Item */}
+                                <div className="flex">
+                                    {/* Numero */}
+                                    <div className="relative ml-4 w-[55px] sm:w-[70px]">
+                                        <span className="inline-block w-5 sm:w-7 h-5 sm:h-7 bg-celeste rounded-full absolute right-[6px] top-[5px] z-10"></span>
+                                        <span className="font-titulo text-7xl sm:text-8xl text-verde text-outline mr-1 relative z-20">3<span className="font-titulo ml-[2px]">.</span></span>
+                                    </div>
+
+                                    <div className="border-l pl-6 ml-6">
+                                        {/* Titulo */}
+                                        <div>
+                                            <h5 className="text-[17px] sm:text-[20px] text-white leading-7">
+                                                Firma<br/>los documentos<br/>de forma digital<br/>
+                                                <span className="font-bold text-[20px] sm:text-[28px]">y ¡listo!</span>
+                                            </h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +210,7 @@ export default function Page() {
             <div className="w-full bg-gray-100 bg-hands py-initSectionY px-iniSectionX">
                 <div className="w-full">
                     {/* Titulo */}
-                    <h3 className="font-titulo text-titulo text-celeste uppercase">
+                    <h3 className="font-titulo text-[8vw] sm:text-titulo text-celeste uppercase">
                         NUESTRAS LÍNEAS DE NEGOCIO
                     </h3>
 
@@ -221,7 +223,7 @@ export default function Page() {
             <div className="w-full bg-verde py-globalY px-iniSectionX">
                 <div className="w-[60%] items-center mx-auto">
                     {/* Titulo */}
-                    <h3 className="font-titulo text-center text-titulo text-white uppercase">
+                    <h3 className="font-titulo text-center text-[8vw] sm:text-titulo text-white uppercase">
                         OPCIONES DE PAGO
                     </h3>
 
