@@ -8,9 +8,22 @@ import Image from 'next/image';
 const Carousel2: React.FC = () => {
     return(
         <div>
-            <Splide className="px-[10%] mt-[60px] items-center justify-center "
+            <Splide className="sm:px-[10%] mt-[50px] mb-[30px] sm:mb-0 sm:mt-[60px] items-center justify-center "
             aria-label="My Favorite Images"
-            options={{ type: 'loop', perPage: 3, autoplay: true, arrows: true, pagination: false, gap: '5rem', speed: 5000, interval: 9000 }}
+            options={{
+                type: 'loop', perPage: 3, autoplay: true, arrows: true, pagination: false, gap: '5rem', speed: 1000, interval: 9000,
+                breakpoints: {
+                    1024: {
+                        perPage: 2,
+                        gap: '2rem',
+                    },
+                    640: {
+                        perPage: 1,
+                        arrows: false,
+                        gap: '1rem',
+                    },
+                },
+            }}
             >
                 <SplideSlide className="flex justify-center items-center">
                     {/* Materiales de contruccion */}
