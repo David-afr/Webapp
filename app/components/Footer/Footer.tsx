@@ -17,10 +17,13 @@ const Footer = () => {
                                 <Link href="/nosotros" className="cursor-pointer">Nosotros</Link>
                             </li>
                             <li>
+                                <a target="_blank" href="https://sedeelectronica.sic.gov.co/" className="cursor-pointer">Superintendencia de Industria y Comercio - SIC</a>
+                            </li>
+                            <li>
                                 <a href="https://market.miplante.com" className="cursor-pointer">Marketplace</a>
                             </li>
                             <li>
-                                <a href="#" className="cursor-pointer">Conoce sobre tu seguro</a>
+                                <a target="_blank" href="#" className="cursor-pointer">Conoce sobre tu seguro</a>
                             </li>
                             <li>
                                 <Link href="/preguntas-frecuentes" className="cursor-pointer">Preguntas frecuentes</Link>
@@ -31,7 +34,6 @@ const Footer = () => {
                             <li>
                                 <a href="#" className="cursor-pointer">Protección de datos</a>
                             </li>
-
                             <li>
                                 <a href="#" className="cursor-pointer">Términos y Condiciones de uso</a>
                             </li>
