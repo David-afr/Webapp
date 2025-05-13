@@ -29,7 +29,10 @@ const Carousel: React.FC = () => {
                 pauseOnFocus: false,
              }}
             >
-            {['almacen', 'ceimcol', 'centroideas', 'televisores', 'emcali', 'motoamiga', 'motored', 'tkdmotos', 'panamericana'].map((image, index) => (
+            {['almacen', 'ceimcol', 'centroideas', 'televisores', 'emcali', 'motoamiga', 'motored', 'tkdmotos', 'panamericana', 'am', 'aokom', 'bodega', 'boutique',
+                'camino', 'centro', 'ceramicas', 'credisuper', 'dpvc', 'electra', 'gyg', 'ibg', 'ideal', 'japonesa', 'jdk', 'laskin', 'luxus', 'maserati', 'megacom',
+                'metrotechnology', 'moto8', 'motomontana', 'motosc', 'pasoancho', 'pb', 'rally', 'rm', 'ruedamotos', 'sisesas', 'sonrisa', 'tecnicentro', 'wheelhouse',
+                'yosoy'].map((image, index) => (
                 <SplideSlide key={index} className="flex justify-center items-center">
                     <Image src={`/images/carousel/${image}.webp`} width={180} height={100} alt={`image aliados ${image}`} className="object-contain" />
                 </SplideSlide>
