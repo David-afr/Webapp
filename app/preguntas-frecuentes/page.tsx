@@ -34,7 +34,7 @@ export default function Page() {
                         <br/>
                         <ul className=" list-disc pl-5">
                             <li>Mayor de edad.</li>
-                            <li>Ser ciudadano colombiano o tener estatus migratorio legalizado.</li>
+                            <li>Ser ciudadano colombiano o tener cédula de extranjería.</li>
                             <li>Clientes que tengan 18 meses de buen comportamiento de pagos en el servicio público domiciliario, sin suspensión y/o castigo del servicio, ni moras mayores a 60 días por otros conceptos. </li>
                             <li>Que el servicio esté activo.</li>
                             <li>Que no tenga refinanciaciones por ningún concepto.</li>
@@ -123,7 +123,7 @@ export default function Page() {
                     <div className="mt-12 wid  text-justify text-black text-lg sm:text-xl">
                         <p className="text-2xl sm:text-xl text-celeste font-titulo mb-5">¿Otorgan préstamos de dinero?</p>
                         
-                        <p>El pago de las cuotas lo realizas a través de la factura de EMCALI</p>
+                        <p>No, no realizamos préstamos de dinero ni efectivo. Nuestro servicio se basa en prestar un Servicio de Financiación para que puedas adquirir bienes y servicios con nuestros aliados comerciales. </p>
                     </div>                
 
                     <div className="mt-12  text-black text-justify text-lg sm:text-xl">

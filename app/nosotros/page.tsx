@@ -103,7 +103,12 @@ export default function Page() {
                 {/* Text */}
                 <div className="mt-[40px] max-w-[95%] sm:max-w-[60%]">
                     <p className="text-center text-white text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur reiciendis praesentium voluptas modi. Nemo excepturi debitis, commodi iure animi laudantium sit repellendus rerum facilis hic perspiciatis? Odio libero ad a.
+                    En Mi Plante, facilitamos el acceso rápido y seguro a créditos pensados para personas que buscan crecer sin complicaciones. 
+                    Nuestro proceso es 100% digital, sin papeleos innecesarios y con aprobación en minutos. 
+                    ¿Tienes preguntas o quieres empezar hoy mismo? Contáctanos a través de contacto@miplante.com o ¡visítanos! Estamos ubicados de Lunes a Viernes en: <br></br>
+                    - Punto de atención CAM Centro de Atención al Usuario de EMCALI Modulo1 de 7:30 AM a 12:30 PM  y 1:30 PM a 4:00 PM  <br></br>
+                    - Punto de atención Barrio Centenario Av 2Norte # 6-44 de 7:30 AM a 12:30 PM  y 1:30 PM a 5:30 PM
+                    ¡Estamos aquí para ayudarte!
                     </p>
                 </div>
             </div>
